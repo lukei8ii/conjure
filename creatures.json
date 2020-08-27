@@ -1,4 +1,4 @@
-let creatures = [
+[
     {
         "name": "Aarakocra",
         "link": "monster.php?m=Aarakocra",
