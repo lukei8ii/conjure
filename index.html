@@ -83,7 +83,7 @@
                 <div class="col-sm">
                     <div class="row">
                         <div class="col-sm">
-                            <image style="width: 300px;" src="" id="creature_image"></image>
+                            <image style="width: 400px;" src="" id="creature_image"></image>
                         </div>
                     </div>
                     <div class="row">
@@ -154,6 +154,10 @@
             populateDropdowns();
         }
 
+        function handleImageData(data) {
+            images = data;
+        }
+
         $(function () {
             console.log("Retrieving creature data");
 
@@ -161,6 +165,12 @@
                 url: "https://raw.githubusercontent.com/lukei8ii/conjure/master/creatures.json",
                 dataType: "json",
                 success: handleCreatureData
+            });
+
+            $.ajax({
+                url: "https://raw.githubusercontent.com/lukei8ii/conjure/master/images.json",
+                dataType: "json",
+                success: handleImageData
             });
 
             $("#configuration").submit((event) => {
@@ -217,7 +227,8 @@
                 console.log(e);
             });
 
-            $("#creature_image").attr("src", `https://www.aidedd.org/dnd/images/${name.toLowerCase().replace(/ /g, "-")}.jpg`);
+            let image = images.find(image => image.name == name).image;
+            $("#creature_image").attr("src", image);
         }
     </script>
 </body>
