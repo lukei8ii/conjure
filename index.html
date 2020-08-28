@@ -10,86 +10,90 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <style>
+        a:not([href]):not([tabindex]) {
+            color: #007bff;
+        }
+
+        a:not([href]):not([tabindex]):focus,
+        a:not([href]):not([tabindex]):hover {
+            text-decoration: underline;
+            color: #007bff;
+        }
+        .side-buffer { margin-left:12px; }
+        .top-buffer { margin-top:20px; }
+    </style>
+
     <title>Conjure Helper</title>
 </head>
 
 <body>
     <div class="container">
+        <h1 class="top-buffer side-buffer">Conjure Helper</h1>
         <div class="container">
-            <h1>Conjure Helper</h1>
-        </div>
-        <div class="container">
-            <div class="row">
+            <div class="row top-buffer">
                 <div class="col-sm">
-                    <form id="configuration">
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">Count</label>
-                            <select class="form-control" id="creature_count">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                                <option>7</option>
-                                <option selected>8</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">Challenge Rating</label>
-                            <select class="form-control" id="creature_cr">
-                                <option value="cr0.0 cr00">0</option>
-                                <option value="cr0.125 cr1/81/8">1/8</option>
-                                <option value="cr0.25 cr1/41/4" selected>1/4</option>
-                                <option value="cr0.5 cr1/21/2">1/2</option>
-                                <option value="cr1/11">1</option>
-                                <option value="cr2/12">2</option>
-                                <option value="cr3/13">3</option>
-                                <option value="cr4/14">4</option>
-                                <option value="cr5/15">5</option>
-                                <option value="cr6/16">6</option>
-                                <option value="cr7/17">7</option>
-                                <option value="cr8/18">8</option>
-                                <option value="cr9/19">9</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect2">Type</label>
-                            <select class="form-control" id="creature_type">
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect2">Creature</label>
-                            <select class="form-control" id="creature_name">
-                            </select>
-                        </div>
-                        <button class="btn btn-primary" type="submit">Summon Creatures</button>
+                    <form class="form-inline" id="configuration">
+                        <label class="sr-only" for="creature_count">Count</label>
+                        <select class="form-control mb-2 mr-sm-2" id="creature_count">
+                            <option value="" disabled selected hidden>How Many?</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                        </select>
+
+                        <label class="sr-only" for="creature_cr">Challenge Rating</label>
+                        <select class="form-control mb-2 mr-sm-2" id="creature_cr">
+                            <option value="" disabled selected hidden>Challenge Rating</option>
+                            <option value="cr0.0 cr00">0</option>
+                            <option value="cr0.125 cr1/81/8">1/8</option>
+                            <option value="cr0.25 cr1/41/4">1/4</option>
+                            <option value="cr0.5 cr1/21/2">1/2</option>
+                            <option value="cr1/11">1</option>
+                            <option value="cr2/12">2</option>
+                            <option value="cr3/13">3</option>
+                            <option value="cr4/14">4</option>
+                            <option value="cr5/15">5</option>
+                            <option value="cr6/16">6</option>
+                            <option value="cr7/17">7</option>
+                            <option value="cr8/18">8</option>
+                            <option value="cr9/19">9</option>
+                        </select>
+
+                        <label class="sr-only" for="creature_type">Type</label>
+                        <select class="form-control mb-2 mr-sm-2" id="creature_type">
+                        </select>
+
+                        <label class="sr-only" for="creature_name">Name</label>
+                        <select class="form-control mb-2 mr-sm-2" id="creature_name">
+                        </select>
+
+                        <button type="submit" class="btn btn-primary mb-2">Conjure</button>
                     </form>
                 </div>
+            </div>
+
+            <div class="row top-buffer">
+                
                 <div class="col-sm">
                     <div class="row">
                         <div class="col-sm">
-                            <div id="creature_description">
-                                <iframe width="525px" height="700px" src="" title=""></iframe>
-                            </div>
+                            <image style="width: 300px;" src="" id="creature_image"></image>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm">
-                            <form id="summoned_creatures">
-                                <button class="btn btn-primary" type="submit">Attack</button>
-                            </form>
+                            
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm">
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Roll20 Output</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"
-                                    readonly></textarea>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+                <div class="col-sm">
+                    <div id="creature_description"></div>
                 </div>
             </div>
         </div>
@@ -104,6 +108,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
 
     <script>
         let creatures = [],
@@ -116,7 +121,7 @@
 
         function handleCreatureData(data) {
             console.log(data);
-            
+
             creatures = data;
 
             types = data.map(creature => creature.type.split("(")[0].trim()).filter(function (item, i, types) {
@@ -142,6 +147,7 @@
 
         $(function () {
             console.log("Retrieving creature data");
+
             $.ajax({
                 url: "https://raw.githubusercontent.com/lukei8ii/conjure/master/creatures.json",
                 dataType: "json",
@@ -164,8 +170,8 @@
             let $type = $("#creature_type");
 
             $type.empty();
+            $type.append($("<option value='' disabled selected hidden>Type</option>"));
             types.forEach(type => $type.append($("<option></option>").text(type)));
-            $type.val("Beast");
 
             $cr.change(filterNames);
             $type.change(filterNames);
@@ -181,6 +187,7 @@
             let $name = $("#creature_name");
 
             $name.empty();
+            $name.append($("<option value='' disabled selected hidden>Creature</option>"));
             creatures.filter(creature => creature.cr.startsWith(cr) && creature.type.startsWith(type)).forEach(creature => $name.append($("<option></option>").text(creature.name)));
 
         }
@@ -190,11 +197,19 @@
 
             // get creature details
             let name = $("#creature_name").val();
-            let url = `${creaturesUrlRoot}${creatures.find(creature => creature.name == name).url}`;
+            let html = creatures.find(creature => creature.name == name).html;
 
-            let $frame = $("#creature_description iframe");
-            $frame.attr("title", name);
-            $frame.attr("src", url);
+            $("#creature_description").html(html);
+
+            var clipboard = new ClipboardJS('.attack');
+            clipboard.on('success', function (e) {
+                console.log(e);
+            });
+            clipboard.on('error', function (e) {
+                console.log(e);
+            });
+
+            $("#creature_image").attr("src", `https://www.aidedd.org/dnd/images/${name.toLowerCase().replace(/ /g, "-")}.jpg`);
         }
     </script>
 </body>
