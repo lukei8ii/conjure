@@ -117,12 +117,21 @@
             alignments = [],
             cr = [],
             names = [],
-            creaturesUrlRoot = "https://jsigvard.com/dnd/";
+            creaturesUrlRoot = "https://jsigvard.com/dnd/",
+            images = [];
 
         function handleCreatureData(data) {
             console.log(data);
 
             creatures = data;
+
+            selectData = data.map(creature => ({ name: creature.name, image: null }));
+
+            console.log(selectData);
+
+            names = data.map(creature => creature.name).sort();
+
+            console.log(names);
 
             types = data.map(creature => creature.type.split("(")[0].trim()).filter(function (item, i, types) {
                 return i == types.indexOf(item);
@@ -189,7 +198,6 @@
             $name.empty();
             $name.append($("<option value='' disabled selected hidden>Creature</option>"));
             creatures.filter(creature => creature.cr.startsWith(cr) && creature.type.startsWith(type)).forEach(creature => $name.append($("<option></option>").text(creature.name)));
-
         }
 
         function summonCreatures() {

@@ -1,0 +1,2745 @@
+[
+  {
+    "name": "Aarakocra",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/2/27/Monster_Manual_5e_-_Aarakocra_-_Christopher_burdett_-_p12.jpg/revision/latest/scale-to-width-down/350?cb=20150109150017"
+  },
+  {
+    "name": "Abjurer"
+  },
+  {
+    "name": "Aboleth",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/58/Monster_Manual_5e_-_Aboleth_-p13.jpg/revision/latest/scale-to-width-down/350?cb=20200313153917"
+  },
+  {
+    "name": "Abominable Yeti",
+    "image": "https://www.aidedd.org/dnd/images/yeti.jpg"
+  },
+  {
+    "name": "Acolyte"
+  },
+  {
+    "name": "Adult Black Dragon",
+    "image": "https://www.aidedd.org/dnd/images/black-dragon.jpg"
+  },
+  {
+    "name": "Adult Blue Dracolich",
+    "image": "https://www.aidedd.org/dnd/images/dracolich.jpg"
+  },
+  {
+    "name": "Adult Blue Dragon",
+    "image": "https://www.aidedd.org/dnd/images/blue-dragon.jpg"
+  },
+  {
+    "name": "Adult Brass Dragon",
+    "image": "https://www.aidedd.org/dnd/images/brass-dragon.jpg"
+  },
+  {
+    "name": "Adult Bronze Dragon",
+    "image": "https://www.aidedd.org/dnd/images/bronze-dragon.jpg"
+  },
+  {
+    "name": "Adult Copper Dragon",
+    "image": "https://www.aidedd.org/dnd/images/copper-dragon.jpg"
+  },
+  {
+    "name": "Adult Gold Dragon",
+    "image": "https://www.aidedd.org/dnd/images/gold-dragon.jpg"
+  },
+  {
+    "name": "Adult Green Dragon",
+    "image": "https://www.aidedd.org/dnd/images/green-dragon.jpg"
+  },
+  {
+    "name": "Adult Red Dragon",
+    "image": "https://www.aidedd.org/dnd/images/red-dragon.jpg"
+  },
+  {
+    "name": "Adult Silver Dragon",
+    "image": "https://www.aidedd.org/dnd/images/silver-dragon.jpg"
+  },
+  {
+    "name": "Adult White Dragon",
+    "image": "https://www.aidedd.org/dnd/images/white-dragon.jpg"
+  },
+  {
+    "name": "Aerisi Kalinoth"
+  },
+  {
+    "name": "Air Elemental",
+    "image": "https://www.aidedd.org/dnd/images/air-elemental.jpg"
+  },
+  {
+    "name": "Air Elemental Myrmidon",
+    "image": "https://www.aidedd.org/dnd/images/air-elemental-myrmidon.jpg"
+  },
+  {
+    "name": "Alhoon",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/d7/Alhoon-5e.png/revision/latest/scale-to-width-down/304?cb=20171010154524"
+  },
+  {
+    "name": "Allosaurus",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/c8/Allosaurus-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171018141221"
+  },
+  {
+    "name": "Ambush Drake"
+  },
+  {
+    "name": "Ancient Black Dragon",
+    "image": "https://www.aidedd.org/dnd/images/black-dragon.jpg"
+  },
+  {
+    "name": "Ancient Blue Dragon",
+    "image": "https://www.aidedd.org/dnd/images/blue-dragon.jpg"
+  },
+  {
+    "name": "Ancient Brass Dragon",
+    "image": "https://www.aidedd.org/dnd/images/brass-dragon.jpg"
+  },
+  {
+    "name": "Ancient Bronze Dragon",
+    "image": "https://www.aidedd.org/dnd/images/bronze-dragon.jpg"
+  },
+  {
+    "name": "Ancient Copper Dragon",
+    "image": "https://www.aidedd.org/dnd/images/copper-dragon.jpg"
+  },
+  {
+    "name": "Ancient Gold Dragon",
+    "image": "https://www.aidedd.org/dnd/images/gold-dragon.jpg"
+  },
+  {
+    "name": "Ancient Green Dragon",
+    "image": "https://www.aidedd.org/dnd/images/green-dragon.jpg"
+  },
+  {
+    "name": "Ancient Red Dragon",
+    "image": "https://www.aidedd.org/dnd/images/red-dragon.jpg"
+  },
+  {
+    "name": "Ancient Silver Dragon",
+    "image": "https://www.aidedd.org/dnd/images/silver-dragon.jpg"
+  },
+  {
+    "name": "Ancient White Dragon",
+    "image": "https://www.aidedd.org/dnd/images/white-dragon.jpg"
+  },
+  {
+    "name": "Androsphinx",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/9f/Monster_Manual_5e_-_Androsphinx_-_Brynn_Metheney_-_p281.jpg/revision/latest/scale-to-width-down/350?cb=20150503210228"
+  },
+  {
+    "name": "Animated Armor",
+    "image": "https://www.aidedd.org/dnd/images/animated-armor.jpg"
+  },
+  {
+    "name": "Animated Table"
+  },
+  {
+    "name": "Ankheg",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/86/Monster_Manual_5e_-_Ankheg_-_Devon_Cady-Lee_-_p21.jpg/revision/latest/scale-to-width-down/350?cb=20150118224815"
+  },
+  {
+    "name": "Ankylosaurus",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/dd/Ankylosaurus.jpg/revision/latest/scale-to-width-down/350?cb=20180120225306"
+  },
+  {
+    "name": "Annis Hag",
+    "image": "https://www.aidedd.org/dnd/images/annis-hag.jpg"
+  },
+  {
+    "name": "Ape"
+  },
+  {
+    "name": "Apprentice Wizard"
+  },
+  {
+    "name": "Arcanaloth",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/90/Arcanaloth-5e.png/revision/latest/scale-to-width-down/350?cb=20171010191559"
+  },
+  {
+    "name": "Archdruid"
+  },
+  {
+    "name": "Archer"
+  },
+  {
+    "name": "Archmage",
+    "image": "https://www.aidedd.org/dnd/images/archmage.jpg"
+  },
+  {
+    "name": "Assassin"
+  },
+  {
+    "name": "Augrek Brighthelm"
+  },
+  {
+    "name": "Aurochs",
+    "image": "https://lotro-wiki.com/images/thumb/9/91/Aurochs.jpg/300px-Aurochs.jpg"
+  },
+  {
+    "name": "Avatar of Death"
+  },
+  {
+    "name": "Awakened Shrub"
+  },
+  {
+    "name": "Awakened Tree"
+  },
+  {
+    "name": "Awakened Zurkhwood"
+  },
+  {
+    "name": "Axe Beak",
+    "image": "https://www.aidedd.org/dnd/images/axe-beak.jpg"
+  },
+  {
+    "name": "Azbara Jos"
+  },
+  {
+    "name": "Azer",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/08/Azer-5e.jpg/revision/latest/scale-to-width-down/350?cb=20200411071333"
+  },
+  {
+    "name": "Baba Lysaga"
+  },
+  {
+    "name": "Baba Lysaga's Creeping Hut"
+  },
+  {
+    "name": "Babau",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/85/Babau_4e.jpg/revision/latest/scale-to-width-down/350?cb=20200225161222"
+  },
+  {
+    "name": "Baboon"
+  },
+  {
+    "name": "Badger",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/a/ab/Giant_badger-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171011001822"
+  },
+  {
+    "name": "Balor",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/35/Monster_Manual_5e_-_Demon%2C_Balor_-_Conceptopolis_-_p55.jpg/revision/latest/scale-to-width-down/350?cb=20190820204815"
+  },
+  {
+    "name": "Banderhobb",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/c3/Barehobb_Img.jpeg/revision/latest/scale-to-width-down/350?cb=20171010224130"
+  },
+  {
+    "name": "Bandit",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/a/a9/Bandits.png/revision/latest/scale-to-width-down/270?cb=20160324152643"
+  },
+  {
+    "name": "Bandit Captain",
+    "image": "https://www.aidedd.org/dnd/images/bandit-captain.jpg"
+  },
+  {
+    "name": "Banshee",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/df/Banshee-5e.jpg/revision/latest/scale-to-width-down/344?cb=20161119164117"
+  },
+  {
+    "name": "Baphomet",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/3e/Baphomet-5e.png/revision/latest/scale-to-width-down/350?cb=20170928145411"
+  },
+  {
+    "name": "Barbed Devil",
+    "image": "https://www.aidedd.org/dnd/images/barbed-devil.jpg"
+  },
+  {
+    "name": "Bard",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/b7/Bard_Clint-Cearley_PHB5e.jpg/revision/latest/scale-to-width-down/350?cb=20140917183739"
+  },
+  {
+    "name": "Barghest",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/f6/Barghest-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161216220156"
+  },
+  {
+    "name": "Barlgura",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/f2/Barlgura-5e.jpg/revision/latest/scale-to-width-down/350?cb=20160924135143"
+  },
+  {
+    "name": "Barovian Witch"
+  },
+  {
+    "name": "Basilisk",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/2/25/Basilisk-5e.jpg/revision/latest/scale-to-width-down/350?cb=20200411071856"
+  },
+  {
+    "name": "Bastian Thermandar"
+  },
+  {
+    "name": "Bat",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/07/Bat-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010171508"
+  },
+  {
+    "name": "Bearded Devil",
+    "image": "https://www.aidedd.org/dnd/images/bearded-devil.jpg"
+  },
+  {
+    "name": "Behir",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/f1/Behir-5e.jpg/revision/latest/scale-to-width-down/350?cb=20190715040912"
+  },
+  {
+    "name": "Beholder",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/2/2c/Monster_Manual_5e_-_Beholder_-_p28.jpg/revision/latest/scale-to-width-down/350?cb=20200313153220"
+  },
+  {
+    "name": "Beholder Zombie",
+    "image": "https://www.aidedd.org/dnd/images/beholder-zombie.jpg"
+  },
+  {
+    "name": "Beldora"
+  },
+  {
+    "name": "Berserker"
+  },
+  {
+    "name": "Bheur Hag",
+    "image": "https://www.aidedd.org/dnd/images/bheur-hag.jpg"
+  },
+  {
+    "name": "Black Bear"
+  },
+  {
+    "name": "Black Dragon Wyrmling"
+  },
+  {
+    "name": "Black Earth Guard"
+  },
+  {
+    "name": "Black Earth Priest"
+  },
+  {
+    "name": "Black Guard Drake"
+  },
+  {
+    "name": "Black Pudding",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/f/f6/Oozes_BlackPudding.png/revision/latest/scale-to-width-down/270?cb=20160324152849"
+  },
+  {
+    "name": "Blackguard"
+  },
+  {
+    "name": "Blagothkus"
+  },
+  {
+    "name": "Blink Dog",
+    "image": "https://www.aidedd.org/dnd/images/blink-dog.jpg"
+  },
+  {
+    "name": "Blood Hawk"
+  },
+  {
+    "name": "Blue Dragon Wyrmling"
+  },
+  {
+    "name": "Blue Guard Drake"
+  },
+  {
+    "name": "Blue Slaad",
+    "image": "https://www.aidedd.org/dnd/images/blue-slaad.jpg"
+  },
+  {
+    "name": "Boar",
+    "image": "https://trpgtdnd.weebly.com/uploads/6/5/4/6/6546502/boar_orig.jpg"
+  },
+  {
+    "name": "Bodak",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/e6/Bodak-5e.jpg/revision/latest/scale-to-width-down/280?cb=20171010165426"
+  },
+  {
+    "name": "Boggle",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/08/Boggle-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010224756"
+  },
+  {
+    "name": "Bone Devil",
+    "image": "https://www.aidedd.org/dnd/images/bone-devil.jpg"
+  },
+  {
+    "name": "Bone Devil Polearm"
+  },
+  {
+    "name": "Bone Naga (Guardian)"
+  },
+  {
+    "name": "Bone Naga (Spirit)"
+  },
+  {
+    "name": "Brass Dragon Wyrmling"
+  },
+  {
+    "name": "Bridesmaid of Zuggtmoy"
+  },
+  {
+    "name": "Brontosaurus",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/99/Brontosaurus-2e.png/revision/latest?cb=20180127003211"
+  },
+  {
+    "name": "Bronze Dragon Wyrmling"
+  },
+  {
+    "name": "Broom of Animated Attack"
+  },
+  {
+    "name": "Brown Bear"
+  },
+  {
+    "name": "Bugbear",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/2/22/Goblinoids_Bugbear.png/revision/latest/scale-to-width-down/270?cb=20160324152816"
+  },
+  {
+    "name": "Bugbear Chief",
+    "image": "https://www.aidedd.org/dnd/images/bugbear.jpg"
+  },
+  {
+    "name": "Bulette",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/be/Monster_Manual_5e_-_Bulette_-_p34.jpg/revision/latest/scale-to-width-down/350?cb=20200313165455"
+  },
+  {
+    "name": "Bullywug",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/8f/Bullywug-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161119174933"
+  },
+  {
+    "name": "Burrowshark"
+  },
+  {
+    "name": "Cambion",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/c1/Monster_Manual_5e_-_Cambion_-_Milivoj_Ceran._-_p36.jpg/revision/latest/scale-to-width-down/350?cb=20160124231914"
+  },
+  {
+    "name": "Camel"
+  },
+  {
+    "name": "Captain Othelstan"
+  },
+  {
+    "name": "Carrion Crawler",
+    "image": "https://www.aidedd.org/dnd/images/carrion-crawler.jpg"
+  },
+  {
+    "name": "Cat",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/32/Cat1.png/revision/latest/scale-to-width-down/350?cb=20190814175842"
+  },
+  {
+    "name": "Catoblepas",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/14/Catoblepas-4e.jpg"
+  },
+  {
+    "name": "Cave Bear",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/2/2d/Beasts_cavebear.png/revision/latest/scale-to-width-down/270?cb=20160324152646"
+  },
+  {
+    "name": "Cave Fisher",
+    "image": "https://www.aidedd.org/dnd/images/cave-fisher.jpg"
+  },
+  {
+    "name": "Centaur",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/cc/Centaur-5e.jpg/revision/latest/scale-to-width-down/350?cb=20160921034622"
+  },
+  {
+    "name": "Centaur Mummy"
+  },
+  {
+    "name": "Chain Devil",
+    "image": "https://www.aidedd.org/dnd/images/chain-devil.jpg"
+  },
+  {
+    "name": "Chamberlain of Zuggtmoy"
+  },
+  {
+    "name": "Champion"
+  },
+  {
+    "name": "Chasme",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/1d/Chasme-5e.jpg/revision/latest/scale-to-width-down/350?cb=20160924023403"
+  },
+  {
+    "name": "Chimera",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/79/Monster_Manual_5e_-_Chimera_-_p39.jpg/revision/latest/scale-to-width-down/350?cb=20200313170057"
+  },
+  {
+    "name": "Chitine",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/77/Chitine-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010185049"
+  },
+  {
+    "name": "Choldrith",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/58/Choldrith-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010164733"
+  },
+  {
+    "name": "Chuul",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/93/Chuul-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161119180436"
+  },
+  {
+    "name": "Chuul Spore Servant"
+  },
+  {
+    "name": "Clay Golem",
+    "image": "https://www.aidedd.org/dnd/images/clay-golem.jpg"
+  },
+  {
+    "name": "Cloaker",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/9b/Cloaker-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161119181500"
+  },
+  {
+    "name": "Cloud Giant",
+    "image": "https://www.aidedd.org/dnd/images/cloud-giant.jpg"
+  },
+  {
+    "name": "Cloud Giant Smiling One",
+    "image": "https://www.aidedd.org/dnd/images/cloud-giant-smiling-one.jpg"
+  },
+  {
+    "name": "Cockatrice",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/6/6d/Cockatrice-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161119200531"
+  },
+  {
+    "name": "Commoner"
+  },
+  {
+    "name": "Conjurer"
+  },
+  {
+    "name": "Constrictor Snake",
+    "image": "https://i.pinimg.com/236x/d7/5e/43/d75e4369c185318c5a479bb4bff3b6e1--antique-illustration-nature-illustration.jpg"
+  },
+  {
+    "name": "Copper Dragon Wyrmling"
+  },
+  {
+    "name": "Couatl",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/54/Couatl-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161120043508"
+  },
+  {
+    "name": "Cow",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRt8VNcCrVgKG7WqorGBfFea5C7G7yU8r6vEvdn_iixQg&usqp=CAU&ec=45695923"
+  },
+  {
+    "name": "Crab"
+  },
+  {
+    "name": "Crag Cat"
+  },
+  {
+    "name": "Cranium Rat",
+    "image": "https://www.aidedd.org/dnd/images/cranium-rat.jpg"
+  },
+  {
+    "name": "Crawling Claw",
+    "image": "https://www.aidedd.org/dnd/images/crawling-claw.jpg"
+  },
+  {
+    "name": "Crocodile",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/2/27/Crocodile.jpeg/revision/latest/scale-to-width-down/350?cb=20190624075223"
+  },
+  {
+    "name": "Crushing Wave Priest"
+  },
+  {
+    "name": "Crushing Wave Reaver"
+  },
+  {
+    "name": "Cult Fanatic",
+    "image": "https://www.aidedd.org/dnd/images/cult-fanatic.jpg"
+  },
+  {
+    "name": "Cultist",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/b/bd/Cultist.png/revision/latest/scale-to-width-down/270?cb=20160324152716"
+  },
+  {
+    "name": "Cyclops",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/ed/Cyclops-5e.jpg/revision/latest/scale-to-width-down/350?cb=20200523154727"
+  },
+  {
+    "name": "Dao",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/8a/Dao-5e.png/revision/latest/scale-to-width-down/350?cb=20171011020204"
+  },
+  {
+    "name": "Darathra Shendrel"
+  },
+  {
+    "name": "Dark Tide Knight"
+  },
+  {
+    "name": "Darkling",
+    "image": "https://www.aidedd.org/dnd/images/darkling.jpg"
+  },
+  {
+    "name": "Darkling Elder",
+    "image": "https://www.aidedd.org/dnd/images/darkling.jpg"
+  },
+  {
+    "name": "Darkmantle",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/e2/Darkmantle-5e.jpg/revision/latest/scale-to-width-down/350?cb=20181006221845"
+  },
+  {
+    "name": "Darz Helgar"
+  },
+  {
+    "name": "Death Dog",
+    "image": "https://www.aidedd.org/dnd/images/death-dog.jpg"
+  },
+  {
+    "name": "Death Kiss",
+    "image": "https://www.aidedd.org/dnd/images/death-kiss.jpg"
+  },
+  {
+    "name": "Death Knight",
+    "image": "https://www.aidedd.org/dnd/images/death-knight.jpg"
+  },
+  {
+    "name": "Death Slaad",
+    "image": "https://www.aidedd.org/dnd/images/death-slaad.jpg"
+  },
+  {
+    "name": "Death Tyrant",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/b6/245beholder5eundead.jpg/revision/latest/scale-to-width-down/350?cb=20171011164609"
+  },
+  {
+    "name": "Deathlock Wight",
+    "image": "https://www.aidedd.org/dnd/images/deathlock-wight.jpg"
+  },
+  {
+    "name": "Deep Gnome (Svirfneblin)"
+  },
+  {
+    "name": "Deep Rothe",
+    "image": "https://i.pinimg.com/236x/b6/c3/80/b6c380138fffd08ae100b55738aa4e89.jpg"
+  },
+  {
+    "name": "Deep Scion",
+    "image": "https://www.aidedd.org/dnd/images/deep-scion.jpg"
+  },
+  {
+    "name": "Deer"
+  },
+  {
+    "name": "Deinonychus"
+  },
+  {
+    "name": "Demilich",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/5c/Monster_Manual_5e_-_Demilich_-_p48.jpg/revision/latest/scale-to-width-down/323?cb=20141111110849"
+  },
+  {
+    "name": "Demogorgon",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/04/Rage_of_demons_-_Demogorgon_-_D%26D_5.png/revision/latest/scale-to-width-down/350?cb=20190704040237"
+  },
+  {
+    "name": "Derro",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/6/6a/Derro_Derro_Slave.png/revision/latest/scale-to-width-down/270?cb=20160324152749"
+  },
+  {
+    "name": "Derro Savant",
+    "image": "https://www.aidedd.org/dnd/images/derro-savant.jpg"
+  },
+  {
+    "name": "Deva",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/12/Deva-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161119153420"
+  },
+  {
+    "name": "Devourer",
+    "image": "https://www.aidedd.org/dnd/images/devourer.jpg"
+  },
+  {
+    "name": "Dimetrodon",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Dimetrodon_angelensisDB.jpg/509px-Dimetrodon_angelensisDB.jpg"
+  },
+  {
+    "name": "Dire Wolf",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/ed/Direwolf.jpeg/revision/latest/scale-to-width-down/350?cb=20190615115126"
+  },
+  {
+    "name": "Displacer Beast",
+    "image": "https://www.aidedd.org/dnd/images/displacer-beast.jpg"
+  },
+  {
+    "name": "Diviner"
+  },
+  {
+    "name": "Djinni",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/ef/Djinn5E.PNG/revision/latest/scale-to-width-down/350?cb=20171010234809"
+  },
+  {
+    "name": "Dolphin"
+  },
+  {
+    "name": "Doppelganger",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/fc/Doppelganger-5e.jpg/revision/latest/scale-to-width-down/290?cb=20170309004652"
+  },
+  {
+    "name": "Draegloth",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/3/3f/Drow_Dreagolath.png/revision/latest/scale-to-width-down/270?cb=20160324152755"
+  },
+  {
+    "name": "Draft Horse",
+    "image": "https://64.media.tumblr.com/9a8adab8bc3455dbeaaf40adcf24155c/tumblr_piwu2tl5oP1xc2hm8o1_1280.jpg"
+  },
+  {
+    "name": "Dragon Turtle",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/ec/Dragon_turtle_mm5e.jpg/revision/latest/scale-to-width-down/350?cb=20161005232712"
+  },
+  {
+    "name": "Dragonclaw"
+  },
+  {
+    "name": "Dragonfang"
+  },
+  {
+    "name": "Dragonsoul"
+  },
+  {
+    "name": "Dragonwing"
+  },
+  {
+    "name": "Dralmorrer Borngray"
+  },
+  {
+    "name": "Drannin Splithelm"
+  },
+  {
+    "name": "Dread Warrior"
+  },
+  {
+    "name": "Dretch",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/3/30/Demons_Dretch.png/revision/latest/scale-to-width-down/270?cb=20160324152726"
+  },
+  {
+    "name": "Drider",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/5d/Monster_Manual_5e_-_Drider_-_p120.jpg/revision/latest/scale-to-width-down/350?cb=20141112143053"
+  },
+  {
+    "name": "Drider Spellcaster"
+  },
+  {
+    "name": "Droki"
+  },
+  {
+    "name": "Drow",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/1/11/Drow_Main.png/revision/latest/scale-to-width-down/270?cb=20160324152800"
+  },
+  {
+    "name": "Drow Elite Warrior"
+  },
+  {
+    "name": "Drow Mage",
+    "image": "https://www.aidedd.org/dnd/images/drow-mage.jpg"
+  },
+  {
+    "name": "Drow Priestess of Lolth",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/3a/Drow_5E-Gray_background.jpg/revision/latest/scale-to-width-down/325?cb=20200618163735"
+  },
+  {
+    "name": "Drow Spore Servant"
+  },
+  {
+    "name": "Druid",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/50/Druid_PHB5e.jpg/revision/latest/scale-to-width-down/350?cb=20140921091402"
+  },
+  {
+    "name": "Dryad",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/84/Dryad-5e.png/revision/latest/scale-to-width-down/350?cb=20171011035516"
+  },
+  {
+    "name": "Duergar",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/f/f6/Duergar_duergar_blackguard.png/revision/latest/scale-to-width-down/270?cb=20160324152804"
+  },
+  {
+    "name": "Duergar Darkhaft"
+  },
+  {
+    "name": "Duergar Kavalrachni"
+  },
+  {
+    "name": "Duergar Keeper of the Flame"
+  },
+  {
+    "name": "Duergar Soulblade"
+  },
+  {
+    "name": "Duergar Spore Servant"
+  },
+  {
+    "name": "Duergar Spy"
+  },
+  {
+    "name": "Duergar Stone Guard",
+    "image": "https://www.aidedd.org/dnd/images/duergar.jpg"
+  },
+  {
+    "name": "Duergar Xarron"
+  },
+  {
+    "name": "Duodrone",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/e2/Duodrone-5e.jpeg/revision/latest/scale-to-width-down/350?cb=20171002153952"
+  },
+  {
+    "name": "Dust Mephit",
+    "image": "https://www.aidedd.org/dnd/images/dust-mephit.jpg"
+  },
+  {
+    "name": "Duvessa Shane"
+  },
+  {
+    "name": "Eagle",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/d6/Giant_eagle-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010183859"
+  },
+  {
+    "name": "Earth Elemental",
+    "image": "https://www.aidedd.org/dnd/images/earth-elemental.jpg"
+  },
+  {
+    "name": "Earth Elemental Myrmidon",
+    "image": "https://www.aidedd.org/dnd/images/earth-elemental-myrmidon.jpg"
+  },
+  {
+    "name": "Efreeti",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/03/Efreeti-5e.png/revision/latest/scale-to-width-down/350?cb=20171011020359"
+  },
+  {
+    "name": "Elder Brain",
+    "image": "https://www.aidedd.org/dnd/images/elder-brain.jpg"
+  },
+  {
+    "name": "Elephant",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/43/Elephant.gif/revision/latest?cb=20190730150236"
+  },
+  {
+    "name": "Elizar Dryflagon"
+  },
+  {
+    "name": "Elk",
+    "image": "https://www.belloflostsouls.net/wp-content/uploads/2019/10/elk.jpg"
+  },
+  {
+    "name": "Empyrean",
+    "image": "https://www.aidedd.org/dnd/images/empyrean.jpg"
+  },
+  {
+    "name": "Enchanter"
+  },
+  {
+    "name": "Erinyes",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/78/Erinyes-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161013133923"
+  },
+  {
+    "name": "Eternal Flame Guardian"
+  },
+  {
+    "name": "Eternal Flame Priest"
+  },
+  {
+    "name": "Ettercap",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/e6/Ettercap-5e.png/revision/latest/scale-to-width-down/350?cb=20171011003137"
+  },
+  {
+    "name": "Ettin",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/14/Ettin-5e.png/revision/latest/scale-to-width-down/350?cb=20180927015751"
+  },
+  {
+    "name": "Evil Mage"
+  },
+  {
+    "name": "Evoker"
+  },
+  {
+    "name": "Ezmerelda d'Avenir"
+  },
+  {
+    "name": "Faerie Dragon (Blue)"
+  },
+  {
+    "name": "Faerie Dragon (Green)"
+  },
+  {
+    "name": "Faerie Dragon (Indigo)"
+  },
+  {
+    "name": "Faerie Dragon (Orange)"
+  },
+  {
+    "name": "Faerie Dragon (Red)"
+  },
+  {
+    "name": "Faerie Dragon (Violet)"
+  },
+  {
+    "name": "Faerie Dragon (Yellow)"
+  },
+  {
+    "name": "Fathomer"
+  },
+  {
+    "name": "Feathergale Knight"
+  },
+  {
+    "name": "Female Steeder",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/6/61/Steeder5e.png/revision/latest?cb=20200322012812"
+  },
+  {
+    "name": "Fire Elemental",
+    "image": "https://www.aidedd.org/dnd/images/fire-elemental.jpg"
+  },
+  {
+    "name": "Fire Elemental Myrmidon"
+  },
+  {
+    "name": "Fire Giant",
+    "image": "https://www.aidedd.org/dnd/images/fire-giant.jpg"
+  },
+  {
+    "name": "Fire Giant Dreadnought",
+    "image": "https://www.aidedd.org/dnd/images/fire-giant-dreadnought.jpg"
+  },
+  {
+    "name": "Fire Snake",
+    "image": "https://www.aidedd.org/dnd/images/fire-snake.jpg"
+  },
+  {
+    "name": "Firenewt Warlock of Imix",
+    "image": "https://www.aidedd.org/dnd/images/firenewt-warlock.jpg"
+  },
+  {
+    "name": "Firenewt Warrior",
+    "image": "https://www.aidedd.org/dnd/images/firenewt.jpg"
+  },
+  {
+    "name": "Flail Snail",
+    "image": "https://www.aidedd.org/dnd/images/flail-snail.jpg"
+  },
+  {
+    "name": "Flameskull",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/d2/Flameskull_-_5e.png/revision/latest/scale-to-width-down/350?cb=20180127083433"
+  },
+  {
+    "name": "Flamewrath"
+  },
+  {
+    "name": "Flesh Golem",
+    "image": "https://www.aidedd.org/dnd/images/flesh-golem.jpg"
+  },
+  {
+    "name": "Flind",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/35/Flind-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010234446"
+  },
+  {
+    "name": "Flumph",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/78/Flumph.jpg/revision/latest/scale-to-width-down/350?cb=20171010183015"
+  },
+  {
+    "name": "Flying Snake",
+    "image": "https://www.aidedd.org/dnd/images/flying-snake.jpg"
+  },
+  {
+    "name": "Flying Sword",
+    "image": "https://www.aidedd.org/dnd/images/flying-sword.jpg"
+  },
+  {
+    "name": "Fomorian",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/08/Fomorian-5e.png/revision/latest/scale-to-width-down/350?cb=20171011015623"
+  },
+  {
+    "name": "Fraz-Urb'luu",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/b7/Fraz-Urb%27luu-5e.png/revision/latest/scale-to-width-down/350?cb=20170928183028"
+  },
+  {
+    "name": "Frog",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/4d/Frog-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171011005521"
+  },
+  {
+    "name": "Froghemoth",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/c0/Froghemoth-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010180748"
+  },
+  {
+    "name": "Frost Giant",
+    "image": "https://www.aidedd.org/dnd/images/frost-giant.jpg"
+  },
+  {
+    "name": "Frost Giant Everlasting One",
+    "image": "https://www.aidedd.org/dnd/images/frost-giant-everlasting-one.jpg"
+  },
+  {
+    "name": "Frulam Mondath"
+  },
+  {
+    "name": "Galeb Duhr",
+    "image": "https://www.aidedd.org/dnd/images/galeb-duhr.jpg"
+  },
+  {
+    "name": "Gar Shatterkeel"
+  },
+  {
+    "name": "Gargoyle",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/74/Gargoyle-5e.png/revision/latest?cb=20161123190953"
+  },
+  {
+    "name": "Gas Spore"
+  },
+  {
+    "name": "Gauth",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/e6/Gauth-5e.png/revision/latest/scale-to-width-down/350?cb=20171010162654"
+  },
+  {
+    "name": "Gazer",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/58/Gazer-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171011162621"
+  },
+  {
+    "name": "Gelatinous Cube",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/a/ae/Oozes_Gelatinous_Cube.png/revision/latest/scale-to-width-down/270?cb=20160324152852"
+  },
+  {
+    "name": "Ghald"
+  },
+  {
+    "name": "Ghast",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/88/Ghast-5e.png/revision/latest/scale-to-width-down/350?cb=20161120235125"
+  },
+  {
+    "name": "Ghost",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/84/Ghost-5e.png/revision/latest/scale-to-width-down/350?cb=20171011023856"
+  },
+  {
+    "name": "Ghoul",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/4/40/Ghouls_ghoul.png/revision/latest/scale-to-width-down/270?cb=20160324152813"
+  },
+  {
+    "name": "Giant Ape"
+  },
+  {
+    "name": "Giant Badger",
+    "image": "https://www.mtgnexus.com/img/gallery/4925-charging-badger.jpg"
+  },
+  {
+    "name": "Giant Bat",
+    "image": "https://tse4.mm.bing.net/th?id=OIP.d9ttrOkbMZX2M6KWVUeS2wHaJp&pid=15.1"
+  },
+  {
+    "name": "Giant Boar"
+  },
+  {
+    "name": "Giant Centipede",
+    "image": "https://ironbombs.files.wordpress.com/2014/03/giant-centipede-smaller.jpg?w=1000&h="
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "image": "https://trpgtdnd.weebly.com/uploads/6/5/4/6/6546502/giant-contrictor-snake_orig.jpg"
+  },
+  {
+    "name": "Giant Crab"
+  },
+  {
+    "name": "Giant Crayfish"
+  },
+  {
+    "name": "Giant Crocodile"
+  },
+  {
+    "name": "Giant Eagle",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/fd/Giant_eagle.jpg/revision/latest?cb=20110701034250"
+  },
+  {
+    "name": "Giant Elk",
+    "image": "https://i.pinimg.com/originals/d9/31/0a/d9310a1488f854aad9634f8a3c4fe855.jpg"
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "image": "https://www.aidedd.org/dnd/images/giant-fire-beetle.jpg"
+  },
+  {
+    "name": "Giant Fly"
+  },
+  {
+    "name": "Giant Frog",
+    "image": "https://i.pinimg.com/originals/be/70/62/be70625de833a32e45f68a5f1f08b5ab.jpg"
+  },
+  {
+    "name": "Giant Goat",
+    "image": "https://i.pinimg.com/originals/a5/c0/d8/a5c0d809a47a5ae98cc8dd4b5631b85c.jpg"
+  },
+  {
+    "name": "Giant Hyena"
+  },
+  {
+    "name": "Giant Lightning Eel"
+  },
+  {
+    "name": "Giant Lizard",
+    "image": "https://i.pinimg.com/originals/a3/e8/12/a3e812f75810022f6bb9ac42c73e97b7.png"
+  },
+  {
+    "name": "Giant Octopus",
+    "image": "https://www.aidedd.org/dnd/images/octopus.jpg"
+  },
+  {
+    "name": "Giant Owl",
+    "image": "https://i.pinimg.com/originals/5e/22/ad/5e22ad496dd4620be4bc1537b50ec1c5.jpg"
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "image": "https://trpgtdnd.weebly.com/uploads/6/5/4/6/6546502/giant-poionous-snake_orig.png"
+  },
+  {
+    "name": "Giant Rat",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/f/f6/Beasts_giantrat.png/revision/latest/scale-to-width-down/270?cb=20160324152655"
+  },
+  {
+    "name": "Giant Rat (Diseased)"
+  },
+  {
+    "name": "Giant Scorpion"
+  },
+  {
+    "name": "Giant Sea Horse"
+  },
+  {
+    "name": "Giant Shark"
+  },
+  {
+    "name": "Giant Spider",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/d/d9/Beasts_GiantSpider.png/revision/latest/scale-to-width-down/270?cb=20160324152658"
+  },
+  {
+    "name": "Giant Strider",
+    "image": "https://www.aidedd.org/dnd/images/firenewt-warlock.jpg"
+  },
+  {
+    "name": "Giant Subterranean Lizard"
+  },
+  {
+    "name": "Giant Toad"
+  },
+  {
+    "name": "Giant Vulture"
+  },
+  {
+    "name": "Giant Wasp"
+  },
+  {
+    "name": "Giant Weasel"
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/e/ee/Beasts_drow_spiderfodder.png/revision/latest/scale-to-width-down/270?cb=20160324152652"
+  },
+  {
+    "name": "Gibbering Mouther",
+    "image": "https://www.aidedd.org/dnd/images/gibbering-mouther.jpg"
+  },
+  {
+    "name": "Girallon",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/a/a8/Girallon-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010155840"
+  },
+  {
+    "name": "Githyanki Knight",
+    "image": "https://www.aidedd.org/dnd/images/githyanki.jpg"
+  },
+  {
+    "name": "Githyanki Warrior",
+    "image": "https://www.aidedd.org/dnd/images/githyanki.jpg"
+  },
+  {
+    "name": "Githzerai Monk",
+    "image": "https://www.aidedd.org/dnd/images/githzerai.jpg"
+  },
+  {
+    "name": "Githzerai Zerth",
+    "image": "https://www.aidedd.org/dnd/images/githzerai.jpg"
+  },
+  {
+    "name": "Glabrezu",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/5d/Glabrezu-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161120142628"
+  },
+  {
+    "name": "Gladiator"
+  },
+  {
+    "name": "Gnoll",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/17/Gnoll-5e.png/revision/latest/scale-to-width-down/350?cb=20171011030355"
+  },
+  {
+    "name": "Gnoll Fang of Yeenoghu"
+  },
+  {
+    "name": "Gnoll Flesh Gnawer",
+    "image": "https://www.aidedd.org/dnd/images/gnoll-flesh-gnawer.jpg"
+  },
+  {
+    "name": "Gnoll Hunter",
+    "image": "https://www.aidedd.org/dnd/images/gnoll.jpg"
+  },
+  {
+    "name": "Gnoll Pack Lord"
+  },
+  {
+    "name": "Gnoll Witherling",
+    "image": "https://www.aidedd.org/dnd/images/gnoll-witherling.jpg"
+  },
+  {
+    "name": "Goat"
+  },
+  {
+    "name": "Goblin",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/8/85/Goblinoids_Goblin.png/revision/latest/scale-to-width-down/270?cb=20160324152819"
+  },
+  {
+    "name": "Goblin Boss",
+    "image": "https://www.aidedd.org/dnd/images/goblin.jpg"
+  },
+  {
+    "name": "Gold Dragon Wyrmling"
+  },
+  {
+    "name": "Gorgon",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/86/Gorgon-5e.png/revision/latest/scale-to-width-down/350?cb=20171011013722"
+  },
+  {
+    "name": "Goristro",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/bd/Goristro-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161020182739"
+  },
+  {
+    "name": "Gray Ooze",
+    "image": "https://www.aidedd.org/dnd/images/gray-ooze.jpg"
+  },
+  {
+    "name": "Gray Ooze (Psychic)"
+  },
+  {
+    "name": "Gray Slaad",
+    "image": "https://www.aidedd.org/dnd/images/gray-slaad.jpg"
+  },
+  {
+    "name": "Graz'zt",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/40/Graz%27zt-5e.png/revision/latest/scale-to-width-down/350?cb=20170928184002"
+  },
+  {
+    "name": "Greater Zombie"
+  },
+  {
+    "name": "Green Dragon Wyrmling"
+  },
+  {
+    "name": "Green Guard Drake"
+  },
+  {
+    "name": "Green Hag",
+    "image": "https://www.aidedd.org/dnd/images/green-hag.jpg"
+  },
+  {
+    "name": "Green Slaad",
+    "image": "https://www.aidedd.org/dnd/images/green-slaad.jpg"
+  },
+  {
+    "name": "Grell",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/b7/Grell-5e.png/revision/latest/scale-to-width-down/319?cb=20171011021138"
+  },
+  {
+    "name": "Grick",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/8d/Grick-5e.png/revision/latest/scale-to-width-down/326?cb=20171011013546"
+  },
+  {
+    "name": "Grick Alpha"
+  },
+  {
+    "name": "Griffon",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/6/6a/Griffon-5e.png/revision/latest/scale-to-width-down/350?cb=20171010175023"
+  },
+  {
+    "name": "Grimlock",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/8e/Grimlock-5e.png/revision/latest/scale-to-width-down/350?cb=20171011040019"
+  },
+  {
+    "name": "Grisha"
+  },
+  {
+    "name": "Grung",
+    "image": "https://www.aidedd.org/dnd/images/grung.jpg"
+  },
+  {
+    "name": "Grung Elite Warrior",
+    "image": "https://www.aidedd.org/dnd/images/grung.jpg"
+  },
+  {
+    "name": "Grung Wildling",
+    "image": "https://www.aidedd.org/dnd/images/grung.jpg"
+  },
+  {
+    "name": "Guard"
+  },
+  {
+    "name": "Guard Drake",
+    "image": "https://www.aidedd.org/dnd/images/guard-drake.jpg"
+  },
+  {
+    "name": "Guardian Naga",
+    "image": "https://www.aidedd.org/dnd/images/guardian-naga.jpg"
+  },
+  {
+    "name": "Guardian Portrait"
+  },
+  {
+    "name": "Gynosphinx",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/88/Gynosphinx-5e.png/revision/latest?cb=20161206031930"
+  },
+  {
+    "name": "Hadrosaurus",
+    "image": "https://olddungeonmaster.files.wordpress.com/2018/01/hadrosaurus.png?w=584"
+  },
+  {
+    "name": "Half-Ogre (Ogrillon)"
+  },
+  {
+    "name": "Half-Red Dragon Veteran",
+    "image": "https://www.aidedd.org/dnd/images/half-red-dragon.jpg"
+  },
+  {
+    "name": "Harpy",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/6/61/Harpy-5e.png/revision/latest/scale-to-width-down/350?cb=20161130025002"
+  },
+  {
+    "name": "Hawk",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/83/Hawk2e.png/revision/latest?cb=20200426182537"
+  },
+  {
+    "name": "Hell Hound",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/df/Hell-hound-5e.png/revision/latest/scale-to-width-down/350?cb=20171011020659"
+  },
+  {
+    "name": "Hellenrae"
+  },
+  {
+    "name": "Helmed Horror",
+    "image": "https://www.aidedd.org/dnd/images/helmed-horror.jpg"
+  },
+  {
+    "name": "Hezrou",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/4/47/Demons_Hezrou.png/revision/latest/scale-to-width-down/270?cb=20160324152729"
+  },
+  {
+    "name": "Hill Giant",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/a/ae/Monster_Manual_5e_-_Giant%2C_Hill_-_p155.jpg/revision/latest/scale-to-width-down/350?cb=20141112170803"
+  },
+  {
+    "name": "Hippogriff",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/08/Hippogriff-5e.png/revision/latest/scale-to-width-down/350?cb=20171011013844"
+  },
+  {
+    "name": "Hobgoblin",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/c/cd/Goblinoids_HobgoblinShaman.png/revision/latest/scale-to-width-down/270?cb=20160324152822"
+  },
+  {
+    "name": "Hobgoblin Captain"
+  },
+  {
+    "name": "Hobgoblin Devastator",
+    "image": "https://www.aidedd.org/dnd/images/hobgoblin-devastator.jpg"
+  },
+  {
+    "name": "Hobgoblin Iron Shadow",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/90/Hobgoblin_Warlord-5e.png/revision/latest/scale-to-width-down/350?cb=20171011030221"
+  },
+  {
+    "name": "Hobgoblin Warlord",
+    "image": "https://www.aidedd.org/dnd/images/hobgoblin.jpg"
+  },
+  {
+    "name": "Homunculus",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/fc/Homunculus-5e.png/revision/latest/scale-to-width-down/350?cb=20161208213136"
+  },
+  {
+    "name": "Hook Horror",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/9/9d/Monstrosities_HookHorror.png/revision/latest/scale-to-width-down/270?cb=20160324152832"
+  },
+  {
+    "name": "Hook Horror Spore Servant"
+  },
+  {
+    "name": "Horned Devil",
+    "image": "https://www.aidedd.org/dnd/images/horned-devil.jpg"
+  },
+  {
+    "name": "Howling Hatred Initiate"
+  },
+  {
+    "name": "Howling Hatred Priest"
+  },
+  {
+    "name": "Hulking Crab"
+  },
+  {
+    "name": "Hunter Shark"
+  },
+  {
+    "name": "Hurricane"
+  },
+  {
+    "name": "Hydra",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/a/a3/Hydra-5e.png/revision/latest/scale-to-width-down/350?cb=20171011014237"
+  },
+  {
+    "name": "Hyena",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/bf/Hyena-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171011011901"
+  },
+  {
+    "name": "Ice Devil",
+    "image": "https://www.aidedd.org/dnd/images/ice-devil.jpg"
+  },
+  {
+    "name": "Ice Devil Spear"
+  },
+  {
+    "name": "Ice Mephit",
+    "image": "https://www.aidedd.org/dnd/images/ice-mephit.jpg"
+  },
+  {
+    "name": "Ice Toad"
+  },
+  {
+    "name": "Illithilich",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/d7/Alhoon-5e.png/revision/latest/scale-to-width-down/304?cb=20171010154524"
+  },
+  {
+    "name": "Illusionist"
+  },
+  {
+    "name": "Imix",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/12/Imix_5e.jpg/revision/latest/scale-to-width-down/350?cb=20180329223102"
+  },
+  {
+    "name": "Imp",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/6/6b/Fiends_Imp.png/revision/latest/scale-to-width-down/270?cb=20160324152807"
+  },
+  {
+    "name": "Intellect Devourer",
+    "image": "https://www.aidedd.org/dnd/images/intellect-devorer.jpg"
+  },
+  {
+    "name": "Invisible Stalker",
+    "image": "https://www.aidedd.org/dnd/images/invisible-stalker.jpg"
+  },
+  {
+    "name": "Iron Golem",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/6/6d/Iron_golem-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161121014222"
+  },
+  {
+    "name": "Ixitxachitl",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/dc/Ixitxachitl-4e.jpg/revision/latest/scale-to-width-down/350?cb=20190920075632"
+  },
+  {
+    "name": "Ixitxachitl Cleric"
+  },
+  {
+    "name": "Iymrith, Ancient Blue Dragon"
+  },
+  {
+    "name": "Izek Strazni"
+  },
+  {
+    "name": "Jackal"
+  },
+  {
+    "name": "Jackalwere",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/14/Jackalwere-5e.png/revision/latest/scale-to-width-down/350?cb=20190225185429"
+  },
+  {
+    "name": "Jamna Gleamsilver"
+  },
+  {
+    "name": "Juiblex",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/6/64/Juiblex5e.png/revision/latest/scale-to-width-down/283?cb=20200630052644"
+  },
+  {
+    "name": "Kalka-Kylla"
+  },
+  {
+    "name": "Kelpie"
+  },
+  {
+    "name": "Kenku",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/04/Kenku-5e.png/revision/latest/scale-to-width-down/350?cb=20171010191131"
+  },
+  {
+    "name": "Ki-rin",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/1e/Ki-rin-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010235446"
+  },
+  {
+    "name": "Killer Whale"
+  },
+  {
+    "name": "Knight"
+  },
+  {
+    "name": "Kobold",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/f3/Monster_Manual_5e_-_Kobold_-_p195.jpg/revision/latest/scale-to-width-down/350?cb=20141112221803"
+  },
+  {
+    "name": "Kobold Dragonshield",
+    "image": "https://www.aidedd.org/dnd/images/kobold-dragonshield.jpg"
+  },
+  {
+    "name": "Kobold Inventor",
+    "image": "https://www.aidedd.org/dnd/images/kobold-inventor.jpg"
+  },
+  {
+    "name": "Kobold Scale Sorcerer",
+    "image": "https://www.aidedd.org/dnd/images/kobold-scale-sorcerer.jpg"
+  },
+  {
+    "name": "Korred",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/85/Korred-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010181607"
+  },
+  {
+    "name": "Kraken",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/fc/Kraken-5e.jpg/revision/latest/scale-to-width-down/348?cb=20200411084304"
+  },
+  {
+    "name": "Kraken Priest"
+  },
+  {
+    "name": "Kuo-Toa",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/2/28/Kuo-toa-5e.jpg/revision/latest/scale-to-width-down/350?cb=20190710143644"
+  },
+  {
+    "name": "Kuo-Toa Archpriest",
+    "image": "https://www.aidedd.org/dnd/images/kuo-toa-archpriest.jpg"
+  },
+  {
+    "name": "Kuo-Toa Monitor"
+  },
+  {
+    "name": "Kuo-Toa Whip",
+    "image": "https://www.aidedd.org/dnd/images/kuo-toa-whip.jpg"
+  },
+  {
+    "name": "Lamia",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/38/Lamia-5e.png/revision/latest/scale-to-width-down/350?cb=20161205022020"
+  },
+  {
+    "name": "Langdedrosa Cyanwrath"
+  },
+  {
+    "name": "Lemure",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/a/a4/Lemure-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161013135326"
+  },
+  {
+    "name": "Leucrotta",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/a/ab/Leucrotta-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010231059"
+  },
+  {
+    "name": "Lich",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/98/Monster_Manual_5e_-_Lich_-_p202.jpg/revision/latest/scale-to-width-down/350?cb=20141113093711"
+  },
+  {
+    "name": "Lifferlas"
+  },
+  {
+    "name": "Lion"
+  },
+  {
+    "name": "Lizard"
+  },
+  {
+    "name": "Lizard King/Queen"
+  },
+  {
+    "name": "Lizardfolk",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/57/Lizardfolk_mm5e.jpg/revision/latest/scale-to-width-down/350?cb=20170915185539"
+  },
+  {
+    "name": "Lizardfolk Shaman"
+  },
+  {
+    "name": "Madam Eva"
+  },
+  {
+    "name": "Maegera the Dawn Titan"
+  },
+  {
+    "name": "Mage",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/c0/Wizard_PHB5e.jpg/revision/latest/scale-to-width-down/250?cb=20140921185413"
+  },
+  {
+    "name": "Magma Mephit",
+    "image": "https://www.aidedd.org/dnd/images/magma-mephit.jpg"
+  },
+  {
+    "name": "Magmin",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/2/28/Magmin.jpeg/revision/latest/scale-to-width-down/350?cb=20181207123317"
+  },
+  {
+    "name": "Male Steeder",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/43/Steeder3e.jpg/revision/latest?cb=20200322020207"
+  },
+  {
+    "name": "Malformed Kraken"
+  },
+  {
+    "name": "Mammoth"
+  },
+  {
+    "name": "Manes",
+    "image": "https://www.aidedd.org/dnd/images/demon-manes.jpg"
+  },
+  {
+    "name": "Manticore",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/1b/Monster_Manual_5e_-_Manticore_-_p213.jpg/revision/latest/scale-to-width-down/350?cb=20141113120840"
+  },
+  {
+    "name": "Marid",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/08/Marid-5e.jpg/revision/latest/scale-to-width-down/350?cb=20160919125820"
+  },
+  {
+    "name": "Marilith",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/ef/Marilith-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161120182923"
+  },
+  {
+    "name": "Markham Southwell"
+  },
+  {
+    "name": "Marlos Urnrayle"
+  },
+  {
+    "name": "Martial Arts Adept"
+  },
+  {
+    "name": "Master Thief"
+  },
+  {
+    "name": "Mastiff",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/50/Mastiff.jpeg/revision/latest/scale-to-width-down/350?cb=20190728155206"
+  },
+  {
+    "name": "Maw Demon"
+  },
+  {
+    "name": "Medusa",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/b1/Medusa-5e.png/revision/latest?cb=20161209001307"
+  },
+  {
+    "name": "Meenlock",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/2/2a/Meenlock-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010231639"
+  },
+  {
+    "name": "Merfolk",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/c9/Merfolk-5e.png/revision/latest/scale-to-width-down/323?cb=20171011020922"
+  },
+  {
+    "name": "Merrow",
+    "image": "https://www.aidedd.org/dnd/images/merrow.jpg"
+  },
+  {
+    "name": "Mezzoloth",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/6/60/Mezzoloth-5e.png/revision/latest/scale-to-width-down/350?cb=20171011034645"
+  },
+  {
+    "name": "Mimic",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/4/46/Monstrosities_Mimic.png/revision/latest/scale-to-width-down/270?cb=20160324152835"
+  },
+  {
+    "name": "Mind Flayer",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/2/2b/Mind_flayer_-_5E.jpg/revision/latest/scale-to-width-down/350?cb=20200305201225"
+  },
+  {
+    "name": "Mind Flayer Arcanist"
+  },
+  {
+    "name": "Mind Flayer Psion"
+  },
+  {
+    "name": "Mindwitness",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/a/a7/Mindwitness-5e.jpg/revision/latest/scale-to-width-down/246?cb=20171010231900"
+  },
+  {
+    "name": "Minotaur",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/3d/Minotaur-5e.png/revision/latest/scale-to-width-down/298?cb=20161209024527"
+  },
+  {
+    "name": "Minotaur Skeleton",
+    "image": "https://www.aidedd.org/dnd/images/minotaur-skeleton.jpg"
+  },
+  {
+    "name": "Miraj Vizann"
+  },
+  {
+    "name": "Miros Xelbrin"
+  },
+  {
+    "name": "Mongrelfolk",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/80/Mongrelfolk.jpg/revision/latest/scale-to-width-down/311?cb=20151121181116"
+  },
+  {
+    "name": "Monodrone",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/5b/Monodrone-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171011150019"
+  },
+  {
+    "name": "Morkoth",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/cc/Morkoth-5e.png/revision/latest/scale-to-width-down/350?cb=20161216211526"
+  },
+  {
+    "name": "Mormesk the Wraith"
+  },
+  {
+    "name": "Mouth of Grolantor",
+    "image": "https://www.aidedd.org/dnd/images/mouth-grolantor.jpg"
+  },
+  {
+    "name": "Mud Mephit",
+    "image": "https://www.aidedd.org/dnd/images/mud-mephit.jpg"
+  },
+  {
+    "name": "Mule"
+  },
+  {
+    "name": "Mummy",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/2/20/Mummy-5e.png/revision/latest/scale-to-width-down/319?cb=20171011160653"
+  },
+  {
+    "name": "Mummy Lord",
+    "image": "https://www.aidedd.org/dnd/images/mummy-lord.jpg"
+  },
+  {
+    "name": "Myconid Adult",
+    "image": "https://www.aidedd.org/dnd/images/myconid.jpg"
+  },
+  {
+    "name": "Myconid Sovereign"
+  },
+  {
+    "name": "Myconid Sprout"
+  },
+  {
+    "name": "Naergoth Bladelord"
+  },
+  {
+    "name": "Nalfeshnee",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/2/2a/Nalfeshnee-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161120184609"
+  },
+  {
+    "name": "Narrak"
+  },
+  {
+    "name": "Narth Tezrin"
+  },
+  {
+    "name": "Naxene Drathkala"
+  },
+  {
+    "name": "Necromancer"
+  },
+  {
+    "name": "Needle Blight",
+    "image": "https://www.aidedd.org/dnd/images/blight.jpg"
+  },
+  {
+    "name": "Neogi",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/78/Neogi-5e.jpg/revision/latest/scale-to-width-down/350?cb=20170211191332"
+  },
+  {
+    "name": "Neogi Hatchling",
+    "image": "https://www.aidedd.org/dnd/images/neogi.jpg"
+  },
+  {
+    "name": "Neogi Master",
+    "image": "https://www.aidedd.org/dnd/images/neogi.jpg"
+  },
+  {
+    "name": "Neothelid",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/4d/Neothelid-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010232932"
+  },
+  {
+    "name": "Nereid"
+  },
+  {
+    "name": "Neronvain"
+  },
+  {
+    "name": "Nezznar the Black Spider"
+  },
+  {
+    "name": "Night Hag",
+    "image": "https://www.aidedd.org/dnd/images/night-hag.jpg"
+  },
+  {
+    "name": "Nightmare",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/4c/Nightmare-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010171957"
+  },
+  {
+    "name": "Nilbog",
+    "image": "https://www.aidedd.org/dnd/images/nilbog.jpg"
+  },
+  {
+    "name": "Noble",
+    "image": "https://www.aidedd.org/dnd/images/noble.jpg"
+  },
+  {
+    "name": "Nothic",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/08/Nothic-5e.png/revision/latest/scale-to-width-down/350?cb=20171010185323"
+  },
+  {
+    "name": "Nycaloth",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/b5/Nycaloth-5e.png/revision/latest/scale-to-width-down/350?cb=20171010174835"
+  },
+  {
+    "name": "Ochre Jelly",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/5/54/Oozes_OchreJelly.png/revision/latest/scale-to-width-down/270?cb=20160324152855"
+  },
+  {
+    "name": "Octopus"
+  },
+  {
+    "name": "Ogre",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/8/87/Ogres_Ogre.png/revision/latest/scale-to-width-down/270?cb=20160324152842"
+  },
+  {
+    "name": "Ogre Zombie",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/8/8e/Zombies_OgreZombie.png/revision/latest/scale-to-width-down/270?cb=20160324152911"
+  },
+  {
+    "name": "Ogremoch",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/9c/Ogremoch_5e.png/revision/latest/scale-to-width-down/350?cb=20180329221305"
+  },
+  {
+    "name": "Olhydra",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/c6/Olhydra_5e.jpg/revision/latest/scale-to-width-down/350?cb=20180329225800"
+  },
+  {
+    "name": "One-Eyed Shiver"
+  },
+  {
+    "name": "Oni",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/0/0c/Oni_vinetroll.png/revision/latest/scale-to-width-down/270?cb=20160324152845"
+  },
+  {
+    "name": "Ooze Master"
+  },
+  {
+    "name": "Orc",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/43/Orc-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010153900"
+  },
+  {
+    "name": "Orc Blade of Ilneval",
+    "image": "https://www.aidedd.org/dnd/images/orc-ilneval.jpg"
+  },
+  {
+    "name": "Orc Claw of Luthic"
+  },
+  {
+    "name": "Orc Eye of Gruumsh"
+  },
+  {
+    "name": "Orc Hand of Yurtrus"
+  },
+  {
+    "name": "Orc Nurtured One of Yurtrus"
+  },
+  {
+    "name": "Orc Red Fang of Shargaas"
+  },
+  {
+    "name": "Orc War Chief",
+    "image": "https://www.aidedd.org/dnd/images/orc.jpg"
+  },
+  {
+    "name": "Orcus",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/2/2a/Rage_of_demons_-_Orcus_-_D%26D_5.jpg/revision/latest/scale-to-width-down/350?cb=20160323135916"
+  },
+  {
+    "name": "Oreioth"
+  },
+  {
+    "name": "Oren Yogilvy"
+  },
+  {
+    "name": "Orog",
+    "image": "https://www.aidedd.org/dnd/images/orog.jpg"
+  },
+  {
+    "name": "Otyugh",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/5/5c/Aberrations_Otyugh.png/revision/latest/scale-to-width-down/270?cb=20160324152637"
+  },
+  {
+    "name": "Owl",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/e7/Owl.jpg/revision/latest/scale-to-width-down/276?cb=20171011004843"
+  },
+  {
+    "name": "Owlbear",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/43/Monster_Manual_5e_-_Owlbear_-_p249.jpg/revision/latest/scale-to-width-down/350?cb=20141113191357"
+  },
+  {
+    "name": "Ox",
+    "image": "https://www.artranked.com/images/0f/0fafcfc4213e674c013bd44b0c5f42d9.jpg"
+  },
+  {
+    "name": "Panther",
+    "image": "http://3.bp.blogspot.com/-J672Kv9X6JI/TmgWBubF8LI/AAAAAAAAAB4/AtCr-jWhZjA/s1600/PANTHER.jpg"
+  },
+  {
+    "name": "Pegasus",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/1b/Pegasus-5e.png/revision/latest/scale-to-width-down/350?cb=20171010192520"
+  },
+  {
+    "name": "Pentadrone",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/0a/Pentadrone.jpeg/revision/latest/scale-to-width-down/350?cb=20171004214950"
+  },
+  {
+    "name": "Peryton",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/8d/Peryton5e.png/revision/latest/scale-to-width-down/350?cb=20171010174015"
+  },
+  {
+    "name": "Phantom Warrior"
+  },
+  {
+    "name": "Pharblex Spattergoo"
+  },
+  {
+    "name": "Phase Spider",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/6/61/Beasts_PhaseSpider.png/revision/latest/scale-to-width-down/270?cb=20160324152701"
+  },
+  {
+    "name": "Pidlwick II"
+  },
+  {
+    "name": "Piercer",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/ef/Piercer2eA.png/revision/latest?cb=20181007192326"
+  },
+  {
+    "name": "Pit Fiend",
+    "image": "https://www.aidedd.org/dnd/images/pit-fiend.jpg"
+  },
+  {
+    "name": "Pixie",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/c4/Pixie_5e_mm.jpg/revision/latest/scale-to-width-down/350?cb=20191103035616"
+  },
+  {
+    "name": "Planetar",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/75/Planetar-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161119160832"
+  },
+  {
+    "name": "Plesiosaurus",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/1f/Plesiosaurus-5e.jpg/revision/latest/scale-to-width-down/350?cb=20170605020931"
+  },
+  {
+    "name": "Poisonous Snake"
+  },
+  {
+    "name": "Polar Bear"
+  },
+  {
+    "name": "Poltergeist"
+  },
+  {
+    "name": "Pony",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/4b/Horse-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010175151"
+  },
+  {
+    "name": "Priest",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/32/Cleric_PHB5e.jpg/revision/latest/scale-to-width-down/350?cb=20140921191521"
+  },
+  {
+    "name": "Pseudodragon",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/d6/Pseudodragon-5e.png/revision/latest/scale-to-width-down/350?cb=20180627022549"
+  },
+  {
+    "name": "Pteranodon",
+    "image": "https://i.pinimg.com/originals/e1/df/d6/e1dfd67af596c7af8463a2008b4b9001.png"
+  },
+  {
+    "name": "Purple Worm",
+    "image": "https://www.aidedd.org/dnd/images/purple-worm.jpg"
+  },
+  {
+    "name": "Purple Wormling"
+  },
+  {
+    "name": "Quadrone",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/56/Quadrone.jpeg/revision/latest/scale-to-width-down/334?cb=20171004160909"
+  },
+  {
+    "name": "Quaggoth",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/18/Quaggoth-5e.png/revision/latest/scale-to-width-down/350?cb=20171011012402"
+  },
+  {
+    "name": "Quaggoth Spore Servant"
+  },
+  {
+    "name": "Quaggoth Thonot"
+  },
+  {
+    "name": "Quasit",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/9/93/Demons_Quasit.png/revision/latest/scale-to-width-down/270?cb=20160324152733"
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "image": "https://www.aidedd.org/dnd/images/quetzalcoatlus.jpg"
+  },
+  {
+    "name": "Quickling",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/a/ab/Quickling-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010154723"
+  },
+  {
+    "name": "Quipper",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/d2/Quipper-5e.jpg/revision/latest/scale-to-width-down/350?cb=20180911032357"
+  },
+  {
+    "name": "Rahadin"
+  },
+  {
+    "name": "Rakshasa",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/94/Rakshasa-5e.png/revision/latest/scale-to-width-down/350?cb=20171011012716"
+  },
+  {
+    "name": "Rat",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/b6/Rat-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010174359"
+  },
+  {
+    "name": "Rath Modar"
+  },
+  {
+    "name": "Raven",
+    "image": "https://www.aidedd.org/dnd/images/raven.jpg"
+  },
+  {
+    "name": "Razerblast"
+  },
+  {
+    "name": "Red Dragon Wyrmling"
+  },
+  {
+    "name": "Red Guard Drake"
+  },
+  {
+    "name": "Red Slaad",
+    "image": "https://www.aidedd.org/dnd/images/red-slaad.jpg"
+  },
+  {
+    "name": "Redbrand Ruffian"
+  },
+  {
+    "name": "Redcap",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/fe/Redcap-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171011012556"
+  },
+  {
+    "name": "Reef Shark"
+  },
+  {
+    "name": "Remorhaz",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/5b/Remorhaz5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010191253"
+  },
+  {
+    "name": "Revenant",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/7e/Revenant-5e.png/revision/latest/scale-to-width-down/350?cb=20161213024507"
+  },
+  {
+    "name": "Rezmir"
+  },
+  {
+    "name": "Rhinoceros"
+  },
+  {
+    "name": "Rictavio"
+  },
+  {
+    "name": "Riding Horse",
+    "image": "https://www.aidedd.org/dnd/images/horse.jpg"
+  },
+  {
+    "name": "Roc",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/59/Roc5e.png/revision/latest/scale-to-width-down/350?cb=20171010154245"
+  },
+  {
+    "name": "Roper",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/d7/Monster_Manual_5e_-_Roper_-_p261.jpg/revision/latest/scale-to-width-down/350?cb=20141115104511"
+  },
+  {
+    "name": "Rothe",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/6/6a/Roth%C3%A9_and_tressym.jpg/revision/latest/scale-to-width-down/350?cb=20071102134739"
+  },
+  {
+    "name": "Rug of Smothering",
+    "image": "https://www.aidedd.org/dnd/images/rug-smothering.jpg"
+  },
+  {
+    "name": "Rust Monster",
+    "image": "https://www.aidedd.org/dnd/images/rust-monster.jpg"
+  },
+  {
+    "name": "Saber-Toothed Tiger"
+  },
+  {
+    "name": "Sacred Stone Monk"
+  },
+  {
+    "name": "Sahuagin",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/d9/Sahuagin-5e.png/revision/latest/scale-to-width-down/350?cb=20171010173723"
+  },
+  {
+    "name": "Sahuagin Baron",
+    "image": "https://www.aidedd.org/dnd/images/sahuagin-baron.jpg"
+  },
+  {
+    "name": "Sahuagin Priestess"
+  },
+  {
+    "name": "Salamander",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/46/Salamander-5e.png/revision/latest/scale-to-width-down/350?cb=20161123232935"
+  },
+  {
+    "name": "Satyr",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/dc/Satyr-5e.jpg/revision/latest/scale-to-width-down/341?cb=20160918232601"
+  },
+  {
+    "name": "Scarecrow",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/9d/Scarecrow-5e.jpg/revision/latest/scale-to-width-down/350?cb=20181011023258"
+  },
+  {
+    "name": "Scorpion"
+  },
+  {
+    "name": "Scout",
+    "image": "https://www.aidedd.org/dnd/images/scout.jpg"
+  },
+  {
+    "name": "Sea Hag",
+    "image": "https://www.aidedd.org/dnd/images/sea-hag.jpg"
+  },
+  {
+    "name": "Sea Horse"
+  },
+  {
+    "name": "Sea Lion"
+  },
+  {
+    "name": "Sea Spawn"
+  },
+  {
+    "name": "Severin"
+  },
+  {
+    "name": "Shadow",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/5/54/Shadow5e.jpg/revision/latest/scale-to-width-down/334?cb=20171010235743"
+  },
+  {
+    "name": "Shadow Demon",
+    "image": "https://www.aidedd.org/dnd/images/shadow-demon.jpg"
+  },
+  {
+    "name": "Shadow Mastiff",
+    "image": "https://www.aidedd.org/dnd/images/shadow-mastiff.jpg"
+  },
+  {
+    "name": "Shalvus Martholio"
+  },
+  {
+    "name": "Shambling Mound",
+    "image": "https://www.aidedd.org/dnd/images/shambling-mound.jpg"
+  },
+  {
+    "name": "Sharwyn Hucrele"
+  },
+  {
+    "name": "Shield Guardian",
+    "image": "https://www.aidedd.org/dnd/images/shield-guardian.jpg"
+  },
+  {
+    "name": "Shoalar Quanderil"
+  },
+  {
+    "name": "Shoosuva",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/cb/Shoosuva-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010225359"
+  },
+  {
+    "name": "Shrieker",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/f2/Shrieker-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171018143353"
+  },
+  {
+    "name": "Sildar Hallwinter"
+  },
+  {
+    "name": "Silver Dragon Wyrmling"
+  },
+  {
+    "name": "Sir Baric Nylef"
+  },
+  {
+    "name": "Sir Braford"
+  },
+  {
+    "name": "Sirac of Suzail"
+  },
+  {
+    "name": "Siren"
+  },
+  {
+    "name": "Skeleton",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/4/48/Skeletons_skeleton.png/revision/latest/scale-to-width-down/270?cb=20160324152859"
+  },
+  {
+    "name": "Skyweaver"
+  },
+  {
+    "name": "Slaad Tadpole"
+  },
+  {
+    "name": "Slithering Tracker",
+    "image": "https://www.aidedd.org/dnd/images/slithering-tracker.jpg"
+  },
+  {
+    "name": "Smoke Mephit",
+    "image": "https://www.aidedd.org/dnd/images/smoke-mephit.jpg"
+  },
+  {
+    "name": "Solar",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/b2/Solar-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161119162026"
+  },
+  {
+    "name": "Spawn of Kyuss",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/dc/Spawn_of_kyuss-5e.jpg/revision/latest/scale-to-width-down/350?cb=20180124165441"
+  },
+  {
+    "name": "Spectator",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/88/Spectator5e.jpg/revision/latest/scale-to-width-down/350?cb=20171011162950"
+  },
+  {
+    "name": "Specter",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/9f/Specter-5e.png/revision/latest/scale-to-width-down/342?cb=20171011034152"
+  },
+  {
+    "name": "Spider",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/0/0f/Beasts_Demonwebterror.png/revision/latest/scale-to-width-down/270?cb=20160324152649"
+  },
+  {
+    "name": "Spined Devil",
+    "image": "https://www.aidedd.org/dnd/images/spined-devil.jpg"
+  },
+  {
+    "name": "Spirit Naga",
+    "image": "https://www.aidedd.org/dnd/images/spirit-naga.jpg"
+  },
+  {
+    "name": "Sprite",
+    "image": "https://www.aidedd.org/dnd/images/sprite.jpg"
+  },
+  {
+    "name": "Spy"
+  },
+  {
+    "name": "Steam Mephit",
+    "image": "https://www.aidedd.org/dnd/images/steam-mephit.jpg"
+  },
+  {
+    "name": "Stegosaurus",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/71/Stegosaurus-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010164006"
+  },
+  {
+    "name": "Stench Kow",
+    "image": "https://www.belloflostsouls.net/wp-content/uploads/2019/10/strench-kow.jpg"
+  },
+  {
+    "name": "Stirge",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/86/Stirge-5e.png/revision/latest/scale-to-width-down/350?cb=20171011140457"
+  },
+  {
+    "name": "Stone Giant",
+    "image": "https://www.aidedd.org/dnd/images/stone-giant.jpg"
+  },
+  {
+    "name": "Stone Giant Dreamwalker",
+    "image": "https://www.aidedd.org/dnd/images/stone-giant-dreamwalker.jpg"
+  },
+  {
+    "name": "Stone Golem",
+    "image": "https://www.aidedd.org/dnd/images/stone-golem.jpg"
+  },
+  {
+    "name": "Stonemelder"
+  },
+  {
+    "name": "Storm Giant",
+    "image": "https://www.aidedd.org/dnd/images/storm-giant.jpg"
+  },
+  {
+    "name": "Storm Giant Quintessent",
+    "image": "https://www.aidedd.org/dnd/images/storm-giant-quintessent.jpg"
+  },
+  {
+    "name": "Strahd von Zarovich",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/ee/Strahd-5e.jpg/revision/latest/scale-to-width-down/350?cb=20180825201600"
+  },
+  {
+    "name": "Strahd Zombie"
+  },
+  {
+    "name": "Strahd's Animated Armor"
+  },
+  {
+    "name": "Succubus/Incubus"
+  },
+  {
+    "name": "Swarm of Bats",
+    "image": "https://www.aidedd.org/dnd/images/swarm-bats.jpg"
+  },
+  {
+    "name": "Swarm of Beetles"
+  },
+  {
+    "name": "Swarm of Centipedes"
+  },
+  {
+    "name": "Swarm of Cranium Rats",
+    "image": "https://www.aidedd.org/dnd/images/cranium-rat.jpg"
+  },
+  {
+    "name": "Swarm of Insects"
+  },
+  {
+    "name": "Swarm of Poisonous Snakes"
+  },
+  {
+    "name": "Swarm of Quippers"
+  },
+  {
+    "name": "Swarm of Rats"
+  },
+  {
+    "name": "Swarm of Ravens"
+  },
+  {
+    "name": "Swarm of Rot Grubs"
+  },
+  {
+    "name": "Swarm of Spiders"
+  },
+  {
+    "name": "Swarm of Wasps"
+  },
+  {
+    "name": "Swashbuckler",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/17/Swashbuckler-5e.jpg/revision/latest/scale-to-width-down/350?cb=20200808160900"
+  },
+  {
+    "name": "Talis the White"
+  },
+  {
+    "name": "Tanarukk",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/02/Tanarukk-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010233804"
+  },
+  {
+    "name": "Tarrasque",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/df/Monster_Manual_5e_-_Tarrasque_-_Cory_Trego-Erdner_-_p287.jpg/revision/latest/scale-to-width-down/350?cb=20200506174611"
+  },
+  {
+    "name": "Tarul Var"
+  },
+  {
+    "name": "Thayan Warrior"
+  },
+  {
+    "name": "The Pudding King"
+  },
+  {
+    "name": "Thorn Slinger"
+  },
+  {
+    "name": "Thorny"
+  },
+  {
+    "name": "Thri-kreen",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/19/Thri-kreen-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161118210858"
+  },
+  {
+    "name": "Thri-kreen (Psionic)"
+  },
+  {
+    "name": "Thug",
+    "image": "https://www.aidedd.org/dnd/images/thug.jpg"
+  },
+  {
+    "name": "Thurl Merosska"
+  },
+  {
+    "name": "Tiamat"
+  },
+  {
+    "name": "Tiger",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/b4/Tigerdruid.png/revision/latest/scale-to-width-down/350?cb=20190808191715"
+  },
+  {
+    "name": "Tlincalli",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/7/72/Tlincalli5e.jpeg/revision/latest/scale-to-width-down/350?cb=20200416221653"
+  },
+  {
+    "name": "Transmuter"
+  },
+  {
+    "name": "Trapper"
+  },
+  {
+    "name": "Treant",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/1/18/Treant-5e.png/revision/latest/scale-to-width-down/350?cb=20171010162949"
+  },
+  {
+    "name": "Tree Blight"
+  },
+  {
+    "name": "Tressym",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/cf/Tressym.jpg/revision/latest/scale-to-width-down/350?cb=20181004142045"
+  },
+  {
+    "name": "Tribal Warrior"
+  },
+  {
+    "name": "Triceratops",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/cc/Dinosaur_Race.jpg/revision/latest/scale-to-width-down/350?cb=20180126182243"
+  },
+  {
+    "name": "Tridrone",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/a/a9/Tridrone-5e.jpeg/revision/latest/scale-to-width-down/350?cb=20171002155847"
+  },
+  {
+    "name": "Troglodyte",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/0d/Troglodyte-5e.png/revision/latest/scale-to-width-down/350?cb=20171011022105"
+  },
+  {
+    "name": "Troglodyte Champion of Laogzed"
+  },
+  {
+    "name": "Troll",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/1/1f/Trolls_Troll.png/revision/latest/scale-to-width-down/270?cb=20160324152902"
+  },
+  {
+    "name": "Twig Blight",
+    "image": "https://www.aidedd.org/dnd/images/blight.jpg"
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/cc/Dinosaur_Race.jpg/revision/latest/scale-to-width-down/350?cb=20180126182243"
+  },
+  {
+    "name": "Ulitharid",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/bd/Ulitharid-5e.jpg/revision/latest/scale-to-width-down/328?cb=20171010175905"
+  },
+  {
+    "name": "Ultroloth",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/3/34/Ultroloth-5e.png/revision/latest/scale-to-width-down/350?cb=20171010182402"
+  },
+  {
+    "name": "Umber Hulk",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/f/f0/Monstrosities_UmberHulk.png/revision/latest/scale-to-width-down/270?cb=20160324152838"
+  },
+  {
+    "name": "Unicorn",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/87/Unicorn-5e.png/revision/latest/scale-to-width-down/350?cb=20171011161639"
+  },
+  {
+    "name": "Uthgardt Shaman"
+  },
+  {
+    "name": "Vampire",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/d/d3/Vampires_Vampspawn_mage.png/revision/latest/scale-to-width-down/270?cb=20160324152908"
+  },
+  {
+    "name": "Vampire Spawn",
+    "image": "https://www.aidedd.org/dnd/images/vampire-spawn.jpg"
+  },
+  {
+    "name": "Vampire Spellcaster"
+  },
+  {
+    "name": "Vampire Warrior"
+  },
+  {
+    "name": "Vampiric Ixitxachitl"
+  },
+  {
+    "name": "Vampiric Ixitxachitl Cleric"
+  },
+  {
+    "name": "Vampiric Mist",
+    "image": "https://www.aidedd.org/dnd/images/vampiric-mist.jpg"
+  },
+  {
+    "name": "Vanifer"
+  },
+  {
+    "name": "Vargouille",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/4c/Vargouille-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010180419"
+  },
+  {
+    "name": "Vegepygmy",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/0/07/Vegepygmy-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010161238"
+  },
+  {
+    "name": "Vegepygmy Chief"
+  },
+  {
+    "name": "Velociraptor",
+    "image": "https://www.aidedd.org/dnd/images/velociraptor.jpg"
+  },
+  {
+    "name": "Veteran"
+  },
+  {
+    "name": "Vine Blight",
+    "image": "https://www.aidedd.org/dnd/images/blight.jpg"
+  },
+  {
+    "name": "Violet Fungus",
+    "image": "https://www.aidedd.org/dnd/images/violet-fungus.jpg"
+  },
+  {
+    "name": "Vladimir Horngaard"
+  },
+  {
+    "name": "Vrock",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/a/af/Demons_Vrock.png/revision/latest/scale-to-width-down/270?cb=20160324152746"
+  },
+  {
+    "name": "Vulture"
+  },
+  {
+    "name": "War Priest"
+  },
+  {
+    "name": "Warhorse",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/4b/Horse-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171010175151"
+  },
+  {
+    "name": "Warhorse Skeleton"
+  },
+  {
+    "name": "Warlock of the Archfey"
+  },
+  {
+    "name": "Warlock of the Fiend"
+  },
+  {
+    "name": "Warlock of the Great Old One"
+  },
+  {
+    "name": "Warlord"
+  },
+  {
+    "name": "Water Elemental",
+    "image": "https://www.aidedd.org/dnd/images/water-elemental.jpg"
+  },
+  {
+    "name": "Water Elemental Myrmidon",
+    "image": "https://www.aidedd.org/dnd/images/water-elemental-myrmidon.jpg"
+  },
+  {
+    "name": "Water Weird",
+    "image": "https://www.aidedd.org/dnd/images/water-weird.jpg"
+  },
+  {
+    "name": "Weasel",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/45/Weaseltreasure.png/revision/latest?cb=20190721090559"
+  },
+  {
+    "name": "Werebear",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/a/aa/Werebear-5e.png/revision/latest/scale-to-width-down/350?cb=20171011033511"
+  },
+  {
+    "name": "Wereboar",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/e/e8/Wereboar-5e.png/revision/latest/scale-to-width-down/350?cb=20171010181018"
+  },
+  {
+    "name": "Wererat",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/2/23/Lycanthropes_Wererat.png/revision/latest/scale-to-width-down/270?cb=20160324152826"
+  },
+  {
+    "name": "Wereraven"
+  },
+  {
+    "name": "Weretiger",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/cd/Weretiger-5e.png/revision/latest/scale-to-width-down/350?cb=20171010183220"
+  },
+  {
+    "name": "Werewolf",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/4a/Werewolf-5e.png/revision/latest/scale-to-width-down/350?cb=20171011033430"
+  },
+  {
+    "name": "White Dragon Wyrmling"
+  },
+  {
+    "name": "White Guard Drake"
+  },
+  {
+    "name": "White Maw"
+  },
+  {
+    "name": "Wiggan Nettlebee"
+  },
+  {
+    "name": "Wight",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/9c/Wight-5e.png/revision/latest/scale-to-width-down/350?cb=20171011032015"
+  },
+  {
+    "name": "Will-o'-Wisp"
+  },
+  {
+    "name": "Windharrow"
+  },
+  {
+    "name": "Winged Kobold",
+    "image": "https://www.aidedd.org/dnd/images/winged-kobold.jpg"
+  },
+  {
+    "name": "Winter Wolf",
+    "image": "https://www.aidedd.org/dnd/images/winter-wolf.jpg"
+  },
+  {
+    "name": "Wolf",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/6/63/Beasts_wolf.png/revision/latest/scale-to-width-down/270?cb=20160324152707"
+  },
+  {
+    "name": "Wood Woad"
+  },
+  {
+    "name": "Worg",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/1/14/Beasts_trollworg.png/revision/latest/scale-to-width-down/270?cb=20160324152704"
+  },
+  {
+    "name": "Wraith",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/81/Wraith-5e.jpg/revision/latest/scale-to-width-down/349?cb=20171010235614"
+  },
+  {
+    "name": "Wyvern",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/45/Wyvern-5e.png/revision/latest/scale-to-width-down/350?cb=20161123221811"
+  },
+  {
+    "name": "Xorn",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/d0/Xorn5e.jpg/revision/latest/scale-to-width-down/350?cb=20200320142831"
+  },
+  {
+    "name": "Xvart",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/b/bf/Xvart-5e.jpg/revision/latest/scale-to-width-down/350?cb=20170211192331"
+  },
+  {
+    "name": "Xvart Speaker"
+  },
+  {
+    "name": "Xvart Warlock of Raxivort"
+  },
+  {
+    "name": "Yakfolk Priest"
+  },
+  {
+    "name": "Yakfolk Warrior"
+  },
+  {
+    "name": "Yan-C-Bin",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/4/4d/Yan-C-Bin_5e.jpg/revision/latest/scale-to-width-down/350?cb=20180329201251"
+  },
+  {
+    "name": "Yeenoghu",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/c/c3/Yeenoghu-5e.png/revision/latest/scale-to-width-down/350?cb=20170928181952"
+  },
+  {
+    "name": "Yestabrod"
+  },
+  {
+    "name": "Yeth Hound",
+    "image": "https://www.aidedd.org/dnd/images/yeth-hound.jpg"
+  },
+  {
+    "name": "Yeti",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/d/dc/Yeti-5e.jpg/revision/latest/scale-to-width-down/350?cb=20171011140831"
+  },
+  {
+    "name": "Yochlol",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/a/a6/Yochlol-5e.jpg/revision/latest/scale-to-width-down/350?cb=20161120185841"
+  },
+  {
+    "name": "Young Black Dragon",
+    "image": "https://www.aidedd.org/dnd/images/black-dragon.jpg"
+  },
+  {
+    "name": "Young Blue Dragon",
+    "image": "https://www.aidedd.org/dnd/images/blue-dragon.jpg"
+  },
+  {
+    "name": "Young Brass Dragon",
+    "image": "https://www.aidedd.org/dnd/images/brass-dragon.jpg"
+  },
+  {
+    "name": "Young Bronze Dragon",
+    "image": "https://www.aidedd.org/dnd/images/bronze-dragon.jpg"
+  },
+  {
+    "name": "Young Copper Dragon",
+    "image": "https://www.aidedd.org/dnd/images/copper-dragon.jpg"
+  },
+  {
+    "name": "Young Gold Dragon",
+    "image": "https://www.aidedd.org/dnd/images/gold-dragon.jpg"
+  },
+  {
+    "name": "Young Green Dragon",
+    "image": "https://www.aidedd.org/dnd/images/green-dragon.jpg"
+  },
+  {
+    "name": "Young Red Dragon",
+    "image": "https://www.aidedd.org/dnd/images/red-dragon.jpg"
+  },
+  {
+    "name": "Young Red Shadow Dragon"
+  },
+  {
+    "name": "Young Remorhaz"
+  },
+  {
+    "name": "Young Silver Dragon",
+    "image": "https://www.aidedd.org/dnd/images/silver-dragon.jpg"
+  },
+  {
+    "name": "Young White Dragon",
+    "image": "https://www.aidedd.org/dnd/images/white-dragon.jpg"
+  },
+  {
+    "name": "Yuan-ti Abomination",
+    "image": "https://www.aidedd.org/dnd/images/yuan-ti-abomination.jpg"
+  },
+  {
+    "name": "Yuan-ti Anathema",
+    "image": "https://www.aidedd.org/dnd/images/yuan-ti-anathema.jpg"
+  },
+  {
+    "name": "Yuan-ti Broodguard",
+    "image": "https://www.aidedd.org/dnd/images/yuan-ti-broodguard.jpg"
+  },
+  {
+    "name": "Yuan-ti Malison Type 1"
+  },
+  {
+    "name": "Yuan-ti Malison Type 2"
+  },
+  {
+    "name": "Yuan-ti Malison Type 3"
+  },
+  {
+    "name": "Yuan-ti Mind Whisperer",
+    "image": "https://www.aidedd.org/dnd/images/yuan-ti-mind-whisperer.jpg"
+  },
+  {
+    "name": "Yuan-ti Nightmare Speaker",
+    "image": "https://www.aidedd.org/dnd/images/yuan-ti-nightmare-speaker.jpg"
+  },
+  {
+    "name": "Yuan-ti Pit Master",
+    "image": "https://www.aidedd.org/dnd/images/yuan-ti-pit-master.jpg"
+  },
+  {
+    "name": "Yuan-ti Pureblood",
+    "image": "https://www.aidedd.org/dnd/images/yuan-ti-pureblood.jpg"
+  },
+  {
+    "name": "Yusdrayl"
+  },
+  {
+    "name": "Zi Liang"
+  },
+  {
+    "name": "Zombie",
+    "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/3/35/Zombies_Zombie.png/revision/latest/scale-to-width-down/270?cb=20160324152914"
+  },
+  {
+    "name": "Zuggtmoy",
+    "image": "https://www.aidedd.org/dnd/images/zuggtmoy.jpg"
+  }
+]
