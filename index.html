@@ -21,7 +21,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    <h3>Configuration</h3>
                     <form id="configuration">
                         <div class="form-group">
                             <label for="exampleFormControlSelect1">Count</label>
@@ -68,10 +67,11 @@
                     </form>
                 </div>
                 <div class="col-sm">
-                    <h3>Summoned Creatures</h3>
                     <div class="row">
                         <div class="col-sm">
-                            <div id="creature_description"></div>
+                            <div id="creature_description">
+                                <iframe width="525px" height="700px" src="" title=""></iframe>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -143,10 +143,7 @@
         $(function () {
             console.log("Retrieving creature data");
             $.ajax({
-                url: "https://api.jsonbin.io/b/5f483f664d8ce4111382365a",
-                headers: {
-                    "secret-key": "$2b$10$TARzMlZZ3yvv.Dmp.83W/elbpq5kaq8XthabSCI6BZRrkViWbaFpi"
-                },
+                url: "https://raw.githubusercontent.com/lukei8ii/conjure/master/creatures.json",
                 dataType: "json",
                 success: handleCreatureData
             });
@@ -193,9 +190,11 @@
 
             // get creature details
             let name = $("#creature_name").val();
-            let html = creatures.find(creature => creature.name == name).html;
-            
-            $("#creature_description").html(html);
+            let url = `${creaturesUrlRoot}${creatures.find(creature => creature.name == name).url}`;
+
+            let $frame = $("#creature_description iframe");
+            $frame.attr("title", name);
+            $frame.attr("src", url);
         }
     </script>
 </body>
