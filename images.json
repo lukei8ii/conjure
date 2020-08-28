@@ -211,7 +211,8 @@
     "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/8/85/Babau_4e.jpg/revision/latest/scale-to-width-down/350?cb=20200225161222"
   },
   {
-    "name": "Baboon"
+    "name": "Baboon",
+    "image": "https://vignette.wikia.nocookie.net/fanon/images/e/e6/Western_Giant_Baboon.png/revision/latest/scale-to-width-down/340?cb=20170705013342"
   },
   {
     "name": "Badger",
@@ -518,7 +519,8 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRt8VNcCrVgKG7WqorGBfFea5C7G7yU8r6vEvdn_iixQg&usqp=CAU&ec=45695923"
   },
   {
-    "name": "Crab"
+    "name": "Crab",
+    "image": "https://koboldpress.com/wp-content/uploads/2019/07/garrotter-crab.jpg"
   },
   {
     "name": "Crag Cat",
@@ -615,7 +617,8 @@
     "image": "https://www.aidedd.org/dnd/images/deep-scion.jpg"
   },
   {
-    "name": "Deer"
+    "name": "Deer",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR25o7BwrLK6Fw0dHmlPZZZiYESSos5eqi4o4qeO88Bhg&usqp=CAU&ec=45695923"
   },
   {
     "name": "Deinonychus",
@@ -1054,7 +1057,8 @@
     "image": "https://www.aidedd.org/dnd/images/giant-fire-beetle.jpg"
   },
   {
-    "name": "Giant Fly"
+    "name": "Giant Fly",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8GzOuEyfxWo6NT1K12K0V_ewMaB4k2GzO5M7USK-mXQ&usqp=CAU&ec=45695923"
   },
   {
     "name": "Giant Frog",
@@ -1192,7 +1196,8 @@
     "image": "https://www.aidedd.org/dnd/images/gnoll-witherling.jpg"
   },
   {
-    "name": "Goat"
+    "name": "Goat",
+    "image": "https://static.wikia.nocookie.net/dungeonsdragons/images/d/da/Goat.jpg/revision/latest/scale-to-width-down/340?cb=20121204224905"
   },
   {
     "name": "Goblin",
@@ -1452,7 +1457,8 @@
     "name": "Izek Strazni"
   },
   {
-    "name": "Jackal"
+    "name": "Jackal",
+    "image": "data:image/jpeg;base64,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"
   },
   {
     "name": "Jackalwere",
@@ -1554,7 +1560,8 @@
     "image": "https://orig00.deviantart.net/084a/f/2010/173/5/1/lion_by_manidiforbice.jpg"
   },
   {
-    "name": "Lizard"
+    "name": "Lizard",
+    "image": "https://www.mojobob.com/roleplay/monstrousmanual/images/lizard.gif"
   },
   {
     "name": "Lizard King/Queen"
@@ -1803,7 +1810,8 @@
     "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/5/54/Oozes_OchreJelly.png/revision/latest/scale-to-width-down/270?cb=20160324152855"
   },
   {
-    "name": "Octopus"
+    "name": "Octopus",
+    "image": "https://i.pinimg.com/originals/fb/a9/31/fba931410663726e49fecbdc0843ea2f.jpg"
   },
   {
     "name": "Ogre",
@@ -2116,7 +2124,8 @@
     "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/9/9d/Scarecrow-5e.jpg/revision/latest/scale-to-width-down/350?cb=20181011023258"
   },
   {
-    "name": "Scorpion"
+    "name": "Scorpion",
+    "image": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/f9/Scorpion.gif/revision/latest?cb=20190801152224"
   },
   {
     "name": "Scout",
@@ -2127,7 +2136,8 @@
     "image": "https://www.aidedd.org/dnd/images/sea-hag.jpg"
   },
   {
-    "name": "Sea Horse"
+    "name": "Sea Horse",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81C4kVWwVfL._SY800_.jpg"
   },
   {
     "name": "Sea Lion"
@@ -2518,7 +2528,8 @@
     "image": "https://vignette.wikia.nocookie.net/sword-coast-legends/images/a/af/Demons_Vrock.png/revision/latest/scale-to-width-down/270?cb=20160324152746"
   },
   {
-    "name": "Vulture"
+    "name": "Vulture",
+    "image": "https://i.pinimg.com/originals/02/6d/2f/026d2ff39a89768ec17b71116fab3cc8.png"
   },
   {
     "name": "War Priest"
