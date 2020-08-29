@@ -1,0 +1,33 @@
+<div class="row">
+    <form class="form-inline">
+        <label class="sr-only" for="summon_name_{{index}}">{{type}} {{index}}</label>
+        <input type="text" class="form-control form-control-plaintext mb-2 col-sm-4"
+            id="summon_name_{{index}}" placeholder="{{name}}">
+
+        <label class="sr-only" for="summon_hp_{{index}}">Hit Points</label>
+        <div class="input-group mb-2 col-sm-3">
+            <input type="text" class="form-control" id="summon_hp_{{index}}"
+                value="{{hp}}" placeholder="0">
+            <div class="input-group-append">
+                <div class="input-group-text">HP</div>
+            </div>
+        </div>
+
+        <div class="custom-control custom-switch custom-switch mr-1">
+            <input type="checkbox" class="custom-control-input custom-control-input" id="first_ability_{{index}}">
+            <label class="custom-control-label" for="first_ability_{{index}}"></label>
+        </div>
+
+        <div class="custom-control custom-switch custom-switch mr-1">
+            <input type="checkbox" class="custom-control-input custom-control-input-success" id="second_ability_{{index}}">
+            <label class="custom-control-label" for="second_ability_{{index}}"></label>
+        </div>
+
+        <div class="custom-control custom-switch custom-switch mr-4">
+            <input type="checkbox" class="custom-control-input custom-control-input-warning" id="third_ability_{{index}}">
+            <label class="custom-control-label" for="third_ability_{{index}}"></label>
+        </div>
+
+        <button type="submit" class="btn btn-link mb-2">Remove</button>
+    </form>
+</div>

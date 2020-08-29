@@ -20,8 +20,22 @@
             text-decoration: underline;
             color: #007bff;
         }
-        .side-buffer { margin-left:12px; }
-        .top-buffer { margin-top:20px; }
+
+        .side-buffer {
+            margin-left: 12px;
+        }
+
+        .top-buffer {
+            margin-top: 20px;
+        }
+
+        .custom-control-input-success:checked~.custom-control-label::before {
+            background-color: #28a745;
+        }
+
+        .custom-control-input-warning:checked~.custom-control-label::before {
+            background-color: #ffc107;
+        }
     </style>
 
     <title>Conjure Helper</title>
@@ -36,7 +50,7 @@
                     <form class="form-inline" id="configuration">
                         <label class="sr-only" for="creature_count">Count</label>
                         <select class="form-control mb-2 mr-sm-2" id="creature_count">
-                            <option value="" disabled selected hidden>How Many?</option>
+                            <option value="" disabled selected hidden>Number of Creatures</option>
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -50,19 +64,19 @@
                         <label class="sr-only" for="creature_cr">Challenge Rating</label>
                         <select class="form-control mb-2 mr-sm-2" id="creature_cr">
                             <option value="" disabled selected hidden>Challenge Rating</option>
-                            <option value="cr0.0 cr00">0</option>
-                            <option value="cr0.125 cr1/81/8">1/8</option>
-                            <option value="cr0.25 cr1/41/4">1/4</option>
-                            <option value="cr0.5 cr1/21/2">1/2</option>
-                            <option value="cr1/11">1</option>
-                            <option value="cr2/12">2</option>
-                            <option value="cr3/13">3</option>
-                            <option value="cr4/14">4</option>
-                            <option value="cr5/15">5</option>
-                            <option value="cr6/16">6</option>
-                            <option value="cr7/17">7</option>
-                            <option value="cr8/18">8</option>
-                            <option value="cr9/19">9</option>
+                            <option value="cr0.0 cr00">CR 0</option>
+                            <option value="cr0.125 cr1/81/8">CR 1/8</option>
+                            <option value="cr0.25 cr1/41/4">CR 1/4</option>
+                            <option value="cr0.5 cr1/21/2">CR 1/2</option>
+                            <option value="cr1/11">CR 1</option>
+                            <option value="cr2/12">CR 2</option>
+                            <option value="cr3/13">CR 3</option>
+                            <option value="cr4/14">CR 4</option>
+                            <option value="cr5/15">CR 5</option>
+                            <option value="cr6/16">CR 6</option>
+                            <option value="cr7/17">CR 7</option>
+                            <option value="cr8/18">CR 8</option>
+                            <option value="cr9/19">CR 9</option>
                         </select>
 
                         <label class="sr-only" for="creature_type">Type</label>
@@ -79,15 +93,15 @@
             </div>
 
             <div class="row top-buffer">
-                
+
                 <div class="col-sm">
                     <div class="row">
-                        <div class="col-sm">
+                        <div class="col-sm text-center">
                             <image style="width: 400px;" src="" id="creature_image"></image>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm">
+                        <div class="col-sm summons">
                             
                         </div>
                     </div>
@@ -109,6 +123,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js" integrity="sha512-6AXIWogbKpsHvoZJrJtHpIYES4wP8czSj0zk7ZfwOYS8GWYFNSykwdfapt7yQc4ikZytemBu+QyVObzBHJMwYg==" crossorigin="anonymous"></script>
 
     <script>
         let creatures = [],
@@ -173,6 +188,9 @@
                 success: handleImageData
             });
 
+            fetch('https://raw.githubusercontent.com/lukei8ii/conjure/master/templates/summon.html')
+                .then(data => console.log(data));
+
             $("#configuration").submit((event) => {
                 console.log("Configuration form submitted");
                 event.preventDefault();
@@ -229,6 +247,17 @@
 
             let image = images.find(image => image.name == name).image;
             $("#creature_image").attr("src", image);
+
+            trackCreatures();
+        }
+
+        function trackCreatures() {
+            // get type and number of creature
+            // create a form per creature with unique IDs and names
+            
+
+
+ 
         }
     </script>
 </body>
