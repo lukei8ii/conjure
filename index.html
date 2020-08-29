@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
         a:not([href]):not([tabindex]) {
@@ -36,12 +37,54 @@
         .custom-control-input-warning:checked~.custom-control-label::before {
             background-color: #ffc107;
         }
+
+        .fa-skull {
+            color: #dc3545;
+        }
     </style>
 
     <title>Conjure Helper</title>
 </head>
 
 <body>
+    <script id="summon_template" type="text/template">
+        <div class="row">
+            <form class="form-inline">
+                <label class="sr-only" for="summon_name_{{index}}">{{name}} {{index}}</label>
+                <input type="text" class="form-control form-control-plaintext mb-2 col-sm-4"
+                    id="summon_name_{{index}}" placeholder="{{name}} {{index}}">
+        
+                <label class="sr-only" for="summon_hp_{{index}}">Hit Points</label>
+                <div class="input-group mb-2 col-sm-3">
+                    <input type="text" class="form-control" id="summon_hp_{{index}}"
+                        value="{{hp}}" placeholder="0">
+                    <div class="input-group-append">
+                        <div class="input-group-text">HP</div>
+                    </div>
+                </div>
+        
+                <div class="custom-control custom-switch custom-switch mr-1">
+                    <input type="checkbox" class="custom-control-input custom-control-input" id="first_ability_{{index}}">
+                    <label class="custom-control-label" for="first_ability_{{index}}"></label>
+                </div>
+        
+                <div class="custom-control custom-switch custom-switch mr-1">
+                    <input type="checkbox" class="custom-control-input custom-control-input-success" id="second_ability_{{index}}">
+                    <label class="custom-control-label" for="second_ability_{{index}}"></label>
+                </div>
+        
+                <div class="custom-control custom-switch custom-switch mr-4">
+                    <input type="checkbox" class="custom-control-input custom-control-input-warning" id="third_ability_{{index}}">
+                    <label class="custom-control-label" for="third_ability_{{index}}"></label>
+                </div>
+        
+                <button type="button" class="btn remove">
+                    <i class="fas fa-skull"></i>
+                </button>
+            </form>
+        </div>
+    </script>
+
     <div class="container">
         <h1 class="top-buffer side-buffer">Conjure Helper</h1>
         <div class="container">
@@ -96,12 +139,12 @@
 
                 <div class="col-sm">
                     <div class="row">
-                        <div class="col-sm text-center">
-                            <image style="width: 400px;" src="" id="creature_image"></image>
+                        <div class="col-sm text-center mb-5">
+                            <image style="width: 525px;" src="" id="creature_image"></image>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm summons">
+                        <div class="col-sm" id="summons">
                             
                         </div>
                     </div>
@@ -124,6 +167,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js" integrity="sha512-6AXIWogbKpsHvoZJrJtHpIYES4wP8czSj0zk7ZfwOYS8GWYFNSykwdfapt7yQc4ikZytemBu+QyVObzBHJMwYg==" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
 
     <script>
         let creatures = [],
@@ -188,15 +232,19 @@
                 success: handleImageData
             });
 
-            fetch('https://raw.githubusercontent.com/lukei8ii/conjure/master/templates/summon.html')
-                .then(data => console.log(data));
-
             $("#configuration").submit((event) => {
                 console.log("Configuration form submitted");
                 event.preventDefault();
 
                 summonCreatures();
             });
+
+            $("#summons").on("click", ".remove", (event) => {
+                event.preventDefault();
+                console.log("removing a creature");
+
+                $(event.target).closest(".row").remove();
+            })
         });
 
         function populateDropdowns() {
@@ -252,12 +300,24 @@
         }
 
         function trackCreatures() {
-            // get type and number of creature
-            // create a form per creature with unique IDs and names
-            
+            let $summons = $("#summons");
+            let template = $("#summon_template").html();
+            let count = $("#creature_count").val();
+            let name = $("#creature_name").val();
+            let hp = 1;
 
+            $summons.empty();
 
- 
+            for (let i = 0; i < count; i++) {
+                let data = {
+                    index: i+1,
+                    name: name,
+                    hp: hp
+                }
+
+                var text = Mustache.render(template, data);
+                $summons.append(text);
+            }
         }
     </script>
 </body>
