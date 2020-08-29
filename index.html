@@ -59,7 +59,7 @@
                 <div class="col-2 col-sm-3">
                     <label class="sr-only" for="summon_hp_{{index}}">Hit Points</label>
                     <div class="input-group">
-                        <input type="number" class="form-control" id="summon_hp_{{index}}"
+                        <input type="number" class="form-control health" id="summon_hp_{{index}}"
                             value="{{hp}}" placeholder="0">
                         <div class="input-group-append d-none d-sm-block">
                             <div class="input-group-text">HP</div>
@@ -191,7 +191,8 @@
             cr = [],
             names = [],
             creaturesUrlRoot = "https://jsigvard.com/dnd/",
-            images = [];
+            images = [],
+            hp = 0;
             
 
         function handleCreatureData(data) {
@@ -260,6 +261,18 @@
 
                 $(event.target).closest(".form-row").remove();
             })
+
+            $("#summons").on("change", ".health", (event) => {
+                console.log("health updated");
+                let $input = $(event.target);
+                let $inputGroup = $input.closest(".input-group");
+
+                if ($input.val() <= hp / 4) {
+                    $inputGroup.addClass("border border-danger");
+                } else {
+                    $inputGroup.removeClass("border border-danger");
+                }
+            })
         });
 
         function populateDropdowns() {
@@ -316,9 +329,18 @@
 
             // get creature details
             let name = $("#creature_name").val();
+            
             let html = creatures.find(creature => creature.name == name).html;
 
             $("#creature_description").html(html);
+
+            hp = $("#creature_description > span:nth-child(8)").text().split(" ");
+
+            if (hp.length >= 3) {
+                hp = parseInt(hp[2]);
+            } else {
+                hp = 1;
+            }
 
             var clipboard = new ClipboardJS('.attack');
             clipboard.on('success', function (e) {
@@ -339,13 +361,6 @@
             let template = $("#summon_template").html();
             let count = $("#creature_count").val();
             let name = $("#creature_name").val();
-            let hp = $("#creature_description > span:nth-child(8)").text().split(" ");
-
-            if (hp.length >= 3) {
-                hp = parseInt(hp[2]);
-            } else {
-                hp = 1;
-            }
 
             $summons.empty();
 
