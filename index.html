@@ -93,12 +93,17 @@
                     <form class="form-inline" id="configuration">
                         <label class="sr-only" for="creature_count">Count</label>
                         <select class="form-control mb-2 mr-sm-2" id="creature_count">
-                            <option value="" disabled selected hidden>Number of Creatures</option>
+                            <option value="" disabled selected hidden>Quantity</option>
+                        </select>
+
+                        <label class="sr-only" for="creature_type">Type</label>
+                        <select class="form-control mb-2 mr-sm-2" id="creature_type">
+                            <option value="" disabled selected hidden>Type</option>
                         </select>
 
                         <label class="sr-only" for="creature_cr">Challenge Rating</label>
                         <select class="form-control mb-2 mr-sm-2" id="creature_cr">
-                            <option value="" disabled selected hidden>Challenge Rating</option>
+                            <option value="" disabled selected hidden>Challenge</option>
                             <option value="cr0.0 cr00">CR 0</option>
                             <option value="cr0.125 cr1/81/8">CR 1/8</option>
                             <option value="cr0.25 cr1/41/4">CR 1/4</option>
@@ -112,11 +117,6 @@
                             <option value="cr7/17">CR 7</option>
                             <option value="cr8/18">CR 8</option>
                             <option value="cr9/19">CR 9</option>
-                        </select>
-
-                        <label class="sr-only" for="creature_type">Type</label>
-                        <select class="form-control mb-2 mr-sm-2" id="creature_type">
-                            <option value="" disabled selected hidden>Type</option>
                         </select>
 
                         <label class="sr-only" for="creature_name">Name</label>
@@ -267,7 +267,7 @@
             let $name = $("#creature_name");
 
             $name.empty();
-            $name.append($("<option value='' disabled selected hidden>Creature</option>"));
+            $name.append($("<option value='' disabled selected hidden>Name</option>"));
             creatures.filter(creature => creature.cr.startsWith(cr) && creature.type.startsWith(type)).forEach(creature => $name.append($("<option></option>").text(creature.name)));
         }
 
