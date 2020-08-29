@@ -50,9 +50,11 @@
     <script id="summon_template" type="text/template">
         <div class="row">
             <form class="form-inline">
-                <label class="sr-only" for="summon_name_{{index}}">{{name}} {{index}}</label>
-                <input type="text" class="form-control form-control-plaintext mb-2 col-sm-4"
-                    id="summon_name_{{index}}" placeholder="{{name}} {{index}}">
+                <div class="input-group mb-2">
+                    <label class="sr-only" for="summon_name_{{index}}">{{name}} {{index}}</label>
+                    <input type="text" class="form-control form-control-plaintext mb-2"
+                        id="summon_name_{{index}}" placeholder="{{name}} {{index}}">
+                </div>
         
                 <label class="sr-only" for="summon_hp_{{index}}">Hit Points</label>
                 <div class="input-group mb-2 col-sm-3">
@@ -63,24 +65,26 @@
                     </div>
                 </div>
         
-                <div class="custom-control custom-switch custom-switch mr-1">
-                    <input type="checkbox" class="custom-control-input custom-control-input" id="first_ability_{{index}}">
-                    <label class="custom-control-label" for="first_ability_{{index}}"></label>
+                <div class="input-group mb-2">
+                    <div class="custom-control custom-switch custom-switch mr-1 mt-2">
+                        <input type="checkbox" class="custom-control-input custom-control-input" id="first_ability_{{index}}">
+                        <label class="custom-control-label" for="first_ability_{{index}}"></label>
+                    </div>
+            
+                    <div class="custom-control custom-switch custom-switch mr-1 mt-2">
+                        <input type="checkbox" class="custom-control-input custom-control-input-success" id="second_ability_{{index}}">
+                        <label class="custom-control-label" for="second_ability_{{index}}"></label>
+                    </div>
+            
+                    <div class="custom-control custom-switch custom-switch mr-4 mt-2">
+                        <input type="checkbox" class="custom-control-input custom-control-input-warning" id="third_ability_{{index}}">
+                        <label class="custom-control-label" for="third_ability_{{index}}"></label>
+                    </div>
+            
+                    <button type="button" class="btn remove">
+                        <i class="fas fa-skull"></i>
+                    </button>
                 </div>
-        
-                <div class="custom-control custom-switch custom-switch mr-1">
-                    <input type="checkbox" class="custom-control-input custom-control-input-success" id="second_ability_{{index}}">
-                    <label class="custom-control-label" for="second_ability_{{index}}"></label>
-                </div>
-        
-                <div class="custom-control custom-switch custom-switch mr-4">
-                    <input type="checkbox" class="custom-control-input custom-control-input-warning" id="third_ability_{{index}}">
-                    <label class="custom-control-label" for="third_ability_{{index}}"></label>
-                </div>
-        
-                <button type="button" class="btn remove">
-                    <i class="fas fa-skull"></i>
-                </button>
             </form>
         </div>
     </script>
@@ -133,12 +137,12 @@
                 <div class="col-sm">
                     <div class="row">
                         <div class="col-sm text-center mb-5">
-                            <image style="width: 525px;" src="" id="creature_image"></image>
+                            <image style="width: 100%;" src="" id="creature_image"></image>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm" id="summons">
-                            
+
                         </div>
                     </div>
                 </div>
@@ -159,10 +163,24 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js" integrity="sha512-6AXIWogbKpsHvoZJrJtHpIYES4wP8czSj0zk7ZfwOYS8GWYFNSykwdfapt7yQc4ikZytemBu+QyVObzBHJMwYg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js"
+        integrity="sha512-6AXIWogbKpsHvoZJrJtHpIYES4wP8czSj0zk7ZfwOYS8GWYFNSykwdfapt7yQc4ikZytemBu+QyVObzBHJMwYg=="
+        crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
 
     <script>
+        const queryString = window.location.search;
+        console.log(queryString);
+        const urlParams = new URLSearchParams(queryString);
+
+        const defaults = {
+            count: urlParams.get('count'),
+            type: urlParams.get('type'),
+            cr: urlParams.get('cr'),
+            name: urlParams.get('name')
+        }
+        console.log(defaults);
+
         let creatures = [],
             types = [],
             sizes = [],
@@ -171,6 +189,7 @@
             names = [],
             creaturesUrlRoot = "https://jsigvard.com/dnd/",
             images = [];
+            
 
         function handleCreatureData(data) {
             console.log(data);
@@ -248,7 +267,7 @@
             let $type = $("#creature_type");
 
             for (let i = 0; i < 32; i++) {
-                $count.append($("<option></option>").text(i+1));
+                $count.append($("<option></option>").text(i + 1));
             }
 
             types.forEach(type => $type.append($("<option></option>").text(type)));
@@ -257,6 +276,7 @@
             $type.change(filterNames);
 
             filterNames();
+            setDefaults();
         }
 
         function filterNames() {
@@ -269,6 +289,23 @@
             $name.empty();
             $name.append($("<option value='' disabled selected hidden>Name</option>"));
             creatures.filter(creature => creature.cr.startsWith(cr) && creature.type.startsWith(type)).forEach(creature => $name.append($("<option></option>").text(creature.name)));
+        }
+
+        function setDefaults() {
+            console.log("setting defaults");
+
+            Object.keys(defaults).forEach((key,index) => {
+                if (defaults[key]) {
+                    $(`#creature_${key}`).val(defaults[key]);
+                }
+            })
+
+            // Handle creature selection afterwards
+            filterNames();
+            if (defaults.name) {
+                $("#creature_name").val(defaults.name);
+                $("#configuration").submit();
+            }
         }
 
         function summonCreatures() {
@@ -301,7 +338,7 @@
             let name = $("#creature_name").val();
             let hp = $("#creature_description > span:nth-child(8)").text().split(" ");
 
-            if (hp.length >=3) {
+            if (hp.length >= 3) {
                 hp = parseInt(hp[2]);
             } else {
                 hp = 1;
@@ -311,7 +348,7 @@
 
             for (let i = 0; i < count; i++) {
                 let data = {
-                    index: i+1,
+                    index: i + 1,
                     name: name,
                     hp: hp
                 }
