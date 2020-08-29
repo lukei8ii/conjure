@@ -94,14 +94,6 @@
                         <label class="sr-only" for="creature_count">Count</label>
                         <select class="form-control mb-2 mr-sm-2" id="creature_count">
                             <option value="" disabled selected hidden>Number of Creatures</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
                         </select>
 
                         <label class="sr-only" for="creature_cr">Challenge Rating</label>
@@ -124,6 +116,7 @@
 
                         <label class="sr-only" for="creature_type">Type</label>
                         <select class="form-control mb-2 mr-sm-2" id="creature_type">
+                            <option value="" disabled selected hidden>Type</option>
                         </select>
 
                         <label class="sr-only" for="creature_name">Name</label>
@@ -254,8 +247,10 @@
             let $cr = $("#creature_cr");
             let $type = $("#creature_type");
 
-            $type.empty();
-            $type.append($("<option value='' disabled selected hidden>Type</option>"));
+            for (let i = 0; i < 32; i++) {
+                $count.append($("<option></option>").text(i+1));
+            }
+
             types.forEach(type => $type.append($("<option></option>").text(type)));
 
             $cr.change(filterNames);
@@ -304,7 +299,13 @@
             let template = $("#summon_template").html();
             let count = $("#creature_count").val();
             let name = $("#creature_name").val();
-            let hp = 1;
+            let hp = $("#creature_description > span:nth-child(8)").text().split(" ");
+
+            if (hp.length >=3) {
+                hp = parseInt(hp[2]);
+            } else {
+                hp = 1;
+            }
 
             $summons.empty();
 
