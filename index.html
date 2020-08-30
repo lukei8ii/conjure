@@ -61,7 +61,7 @@
                     <div class="input-group">
                         <input type="number" class="form-control health" id="summon_hp_{{index}}"
                             value="{{hp}}" placeholder="0">
-                        <div class="input-group-append d-none d-sm-block">
+                        <div class="input-group-append">
                             <div class="input-group-text">HP</div>
                         </div>
                     </div>
@@ -111,20 +111,6 @@
 
                         <label class="sr-only" for="creature_cr">Challenge Rating</label>
                         <select class="form-control mb-2 mr-sm-2" id="creature_cr">
-                            <option value="" disabled selected hidden>Challenge</option>
-                            <option value="cr0.0 cr00">CR 0</option>
-                            <option value="cr0.125 cr1/81/8">CR 1/8</option>
-                            <option value="cr0.25 cr1/41/4">CR 1/4</option>
-                            <option value="cr0.5 cr1/21/2">CR 1/2</option>
-                            <option value="cr1/11">CR 1</option>
-                            <option value="cr2/12">CR 2</option>
-                            <option value="cr3/13">CR 3</option>
-                            <option value="cr4/14">CR 4</option>
-                            <option value="cr5/15">CR 5</option>
-                            <option value="cr6/16">CR 6</option>
-                            <option value="cr7/17">CR 7</option>
-                            <option value="cr8/18">CR 8</option>
-                            <option value="cr9/19">CR 9</option>
                         </select>
 
                         <label class="sr-only" for="creature_name">Name</label>
@@ -185,53 +171,29 @@
         console.log(defaults);
 
         let creatures = [],
-            types = [],
-            sizes = [],
-            alignments = [],
-            cr = [],
-            names = [],
-            creaturesUrlRoot = "https://jsigvard.com/dnd/",
-            images = [],
-            hp = 0;
             
-
-        function handleCreatureData(data) {
-            console.log(data);
-
-            creatures = data;
-
-            selectData = data.map(creature => ({ name: creature.name, image: null }));
-
-            console.log(selectData);
-
-            names = data.map(creature => creature.name).sort();
-
-            console.log(names);
-
-            types = data.map(creature => creature.type.split("(")[0].trim()).filter(function (item, i, types) {
-                return i == types.indexOf(item);
-            }).sort();
-
-            console.log(types);
-
-            sizes = data.map(creature => creature.size).filter(function (item, i, sizes) {
-                return i == sizes.indexOf(item);
-            }).sort();
-
-            console.log(sizes);
-
-            alignments = data.map(creature => creature.alignment.split("(")[0].trim()).filter(function (item, i, alignments) {
-                return i == alignments.indexOf(item);
-            }).sort();
-
-            console.log(alignments);
-
-            populateDropdowns();
-        }
-
-        function handleImageData(data) {
-            images = data;
-        }
+            types = [],
+            names = [],
+            images = [],
+            alignments = [],
+            sizes = [],
+            challengeRatings = {
+                "cr0.0 cr00": "CR 0",
+                "cr0.125 cr1/81/8": "CR 1/8",
+                "cr0.25 cr1/41/4": "CR 1/4",
+                "cr0.5 cr1/21/2": "CR 1/2",
+                "cr1/11": "CR 1",
+                "cr2/12": "CR 2",
+                "cr3/13": "CR 3",
+                "cr4/14": "CR 4",
+                "cr5/15": "CR 5",
+                "cr6/16": "CR 6",
+                "cr7/17": "CR 7",
+                "cr8/18": "CR 8",
+                "cr9/19": "CR 9"
+            },
+            creaturesUrlRoot = "https://jsigvard.com/dnd/",
+            hp = 0;
 
         $(function () {
             console.log("Retrieving creature data");
@@ -275,6 +237,31 @@
             })
         });
 
+        function handleCreatureData(data) {
+            console.log(data);
+            creatures = data;
+
+            names = data.map(creature => creature.name).sort();
+
+            types = data.map(creature => creature.type.split("(")[0].trim()).filter(function (item, i, types) {
+                return i == types.indexOf(item);
+            }).sort();
+
+            sizes = data.map(creature => creature.size).filter(function (item, i, sizes) {
+                return i == sizes.indexOf(item);
+            }).sort();
+
+            alignments = data.map(creature => creature.alignment.split("(")[0].trim()).filter(function (item, i, alignments) {
+                return i == alignments.indexOf(item);
+            }).sort();
+
+            populateDropdowns();
+        }
+
+        function handleImageData(data) {
+            images = data;
+        }
+
         function populateDropdowns() {
             console.log("Populating dropdowns");
 
@@ -288,12 +275,37 @@
 
             types.forEach(type => $type.append($("<option></option>").text(type)));
 
+            $type.change(filterChallengeRatings);
             $cr.change(filterNames);
-            $type.change(filterNames);
 
-            filterNames();
+            filterChallengeRatings();
             setDefaults();
         }
+
+        function filterChallengeRatings() {
+                console.log("Filtering challenge ratings");
+
+                let type = $("#creature_type").val();
+                let $cr = $("#creature_cr");
+
+                $cr.empty();
+                $cr.append($("<option value='' disabled selected hidden>Challenge</option>"));
+
+                if (type) {
+                    let filteredCr = creatures.filter(creature => creature.type.startsWith(type)).
+                        map(creature => creature.cr).filter(function (item, i, ratings) {
+                        return i == ratings.indexOf(item);
+                    }).sort();
+
+                    filteredCr.forEach(cr => {
+                        if (challengeRatings.hasOwnProperty(cr)) {
+                            $cr.append($("<option></option>").val(cr).text(challengeRatings[cr]));
+                        }
+                    })
+                }
+
+                filterNames();
+            }
 
         function filterNames() {
             console.log("Filtering names");
@@ -304,7 +316,10 @@
 
             $name.empty();
             $name.append($("<option value='' disabled selected hidden>Name</option>"));
-            creatures.filter(creature => creature.cr.startsWith(cr) && creature.type.startsWith(type)).forEach(creature => $name.append($("<option></option>").text(creature.name)));
+
+            if (cr && type) {
+                creatures.filter(creature => creature.cr.startsWith(cr) && creature.type.startsWith(type)).forEach(creature => $name.append($("<option></option>").text(creature.name)));
+            }
         }
 
         function setDefaults() {
