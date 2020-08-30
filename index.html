@@ -38,6 +38,10 @@
             background-color: #ffc107;
         }
 
+        .custom-control-input-info:checked~.custom-control-label::before {
+            background-color: #17a2b8;
+        }
+
         .fa-skull {
             color: #dc3545;
         }
@@ -48,7 +52,7 @@
 
 <body>
     <script id="summon_template" type="text/template">
-        <form class="form-inline">
+        <form class="form-inline mb-3">
             <div class="form-row">
                 <div class="col-12 col-sm-5">
                     <label class="sr-only" for="summon_name_{{index}}">{{name}} {{index}}</label>
@@ -56,7 +60,7 @@
                         id="summon_name_{{index}}" placeholder="{{name}} {{index}}">
                 </div>
         
-                <div class="col-2 col-sm-3">
+                <div class="col-5 col-sm-3">
                     <label class="sr-only" for="summon_hp_{{index}}">Hit Points</label>
                     <div class="input-group">
                         <input type="number" class="form-control health" id="summon_hp_{{index}}"
@@ -66,27 +70,50 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-5 col-sm-3">
+                    <label class="sr-only" for="summon_thp_{{index}}">Temporary Hit Points</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control temp_health" id="summon_thp_{{index}}"
+                            value="{{thp}}" placeholder="0">
+                        <div class="input-group-append">
+                            <div class="input-group-text alert-warning">THP</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1">
+                    <div class="">
+                        <button type="button" class="btn remove">
+                            <i class="fas fa-skull"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-0 col-sm-5">
+                </div>
         
                 <div class="col">
                     <div class="input-group">
-                        <div class="custom-control custom-switch custom-switch mr-1 mt-2">
+                        <div class="custom-control custom-switch custom-switch mr-4 mt-2">
                             <input type="checkbox" class="custom-control-input custom-control-input" id="first_ability_{{index}}">
                             <label class="custom-control-label" for="first_ability_{{index}}"></label>
                         </div>
                 
-                        <div class="custom-control custom-switch custom-switch mr-1 mt-2">
+                        <div class="custom-control custom-switch custom-switch mr-4 mt-2">
                             <input type="checkbox" class="custom-control-input custom-control-input-success" id="second_ability_{{index}}">
                             <label class="custom-control-label" for="second_ability_{{index}}"></label>
                         </div>
                 
-                        <div class="custom-control custom-switch custom-switch mr-3 mt-2">
+                        <div class="custom-control custom-switch custom-switch mr-4 mt-2">
                             <input type="checkbox" class="custom-control-input custom-control-input-warning" id="third_ability_{{index}}">
                             <label class="custom-control-label" for="third_ability_{{index}}"></label>
                         </div>
 
-                        <button type="button" class="btn remove">
-                            <i class="fas fa-skull"></i>
-                        </button>
+                        <div class="custom-control custom-switch custom-switch mr-4 mt-2">
+                            <input type="checkbox" class="custom-control-input custom-control-input-info" id="fourth_ability_{{index}}">
+                            <label class="custom-control-label" for="fourth_ability_{{index}}"></label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -126,7 +153,7 @@
 
                 <div class="col-sm mb-5">
                     <div class="row">
-                        <div class="col-sm text-center mb-5">
+                        <div class="col-sm text-center mb-4">
                             <image style="width: 100%;" src="" id="creature_image"></image>
                         </div>
                     </div>
@@ -227,12 +254,11 @@
             $("#summons").on("change", ".health", (event) => {
                 console.log("health updated");
                 let $input = $(event.target);
-                let $inputGroup = $input.closest(".input-group");
 
                 if ($input.val() <= hp / 4) {
-                    $inputGroup.addClass("border border-danger");
+                    $inputGroup.addClass("alert-danger");
                 } else {
-                    $inputGroup.removeClass("border border-danger");
+                    $inputGroup.removeClass("alert-danger");
                 }
             })
         });
